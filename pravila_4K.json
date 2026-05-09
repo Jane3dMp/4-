@@ -34,7 +34,9 @@
             "тактильн",
             "сенсомот"
           ],
-          "K": [],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
           "S": [
             "S.GOV23.MOTORIKA",
             "S.GOV23.DIDAKT_IGR"
@@ -194,7 +196,9 @@
             "пальчик",
             "хоровод"
           ],
-          "K": [],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
           "S": [
             "S.GOV23.DIDAKT_IGR"
           ],
@@ -218,7 +222,9 @@
             "круг",
             "квадрат"
           ],
-          "K": [],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
           "S": [
             "S.GOV23.SENSOR"
           ],
@@ -342,7 +348,9 @@
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Природные явления",
@@ -368,7 +376,9 @@
             "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Математика и счёт",
@@ -380,7 +390,9 @@
             "математ",
             "фигур"
           ],
-          "K": [],
+          "K": [
+            "K.POCH34.ZHIVOTN"
+          ],
           "S": [
             "S.POCH34.NABLYUDENIE"
           ],
@@ -388,7 +400,9 @@
             "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Цвет и форма",
@@ -398,7 +412,9 @@
             "круг",
             "квадрат"
           ],
-          "K": [],
+          "K": [
+            "K.POCH34.ZHIVOTN"
+          ],
           "S": [
             "S.POCH34.NABLYUDENIE"
           ],
@@ -406,7 +422,9 @@
             "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Тело человека",
@@ -425,7 +443,9 @@
             "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Растения",
@@ -444,7 +464,9 @@
             "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Приключения и игры",
@@ -454,7 +476,9 @@
             "квест",
             "детектив"
           ],
-          "K": [],
+          "K": [
+            "K.POCH34.ZHIVOTN"
+          ],
           "S": [
             "S.POCH34.NABLYUDENIE"
           ],
@@ -562,7 +586,9 @@
           "K": [
             "K.NEYRO46.RELAX"
           ],
-          "S": [],
+          "S": [
+            "S.NEYRO46.KOORD"
+          ],
           "C": [
             "C.KOMANDA"
           ],
@@ -746,7 +772,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.AZB.FONEMATIC"
+          ]
         },
         {
           "name": "Знакомство с буквой",
@@ -811,7 +839,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.AZB.FONEMATIC"
+          ]
         },
         {
           "name": "Предложения",
@@ -830,7 +860,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.AZB.FONEMATIC"
+          ]
         },
         {
           "name": "Рассказ и пересказ",
@@ -887,7 +919,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.AZB.FONEMATIC"
+          ]
         },
         {
           "name": "Слухоречевая память",
@@ -943,11 +977,15 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Овощи и фрукты",
@@ -962,12 +1000,16 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Животные",
@@ -987,11 +1029,15 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Семья и человек",
@@ -1006,7 +1052,9 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1026,8 +1074,12 @@
             "соседи числ",
             "предлог места"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1045,8 +1097,12 @@
             "умозакл",
             "логическ задач"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1064,8 +1120,12 @@
             "согласн",
             "фонематич"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1084,12 +1144,16 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.LYUBOZNATELNOST",
             "C.INTERES_CHTENIE"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Творчество",
@@ -1102,12 +1166,16 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Беларусь",
@@ -1118,7 +1186,9 @@
           "K": [
             "K.HVZ.OKR_MIR"
           ],
-          "S": [],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1136,8 +1206,12 @@
             "утр",
             "вечер"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
@@ -1175,12 +1249,16 @@
           "K": [
             "K.PESK.TEHN"
           ],
-          "S": [],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Эмоции",
@@ -1194,8 +1272,12 @@
             "благодарн",
             "позитив"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
@@ -1215,8 +1297,12 @@
             "зимн",
             "космич"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST"
           ],
@@ -1233,8 +1319,12 @@
             "путешеств",
             "приключ"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
@@ -1255,12 +1345,16 @@
           "K": [
             "K.PESK.TEHN"
           ],
-          "S": [],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Праздники",
@@ -1270,8 +1364,12 @@
             "подарок",
             "праздник"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
@@ -1288,13 +1386,19 @@
             "взаимодейств",
             "общий"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [
+            "S.PESK.PESOK"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         }
       ]
     },
@@ -1321,7 +1425,9 @@
             "гуашь",
             "гуашев"
           ],
-          "K": [],
+          "K": [
+            "K.ART68.SVOISTVA"
+          ],
           "S": [
             "S.ART68.ZHIV_GUASH"
           ],
@@ -1329,7 +1435,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Акварель",
@@ -1346,7 +1454,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Графика",
@@ -1365,7 +1475,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Натюрморт",
@@ -1382,7 +1494,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Пейзаж",
@@ -1399,7 +1513,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Портрет",
@@ -1417,7 +1533,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Композиция",
@@ -1435,7 +1553,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Цвет",
@@ -1456,7 +1576,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Перспектива",
@@ -1473,7 +1595,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Природные материалы",
@@ -1505,7 +1629,9 @@
             "ван гог",
             "манер"
           ],
-          "K": [],
+          "K": [
+            "K.ART68.GUASH"
+          ],
           "S": [
             "S.ART68.ZHIV_GUASH"
           ],
@@ -1513,7 +1639,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Презентация",
@@ -1532,7 +1660,9 @@
             "C.AKKURATNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         }
       ]
     },
@@ -1583,7 +1713,9 @@
             "эллемент",
             "основ написа"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1604,7 +1736,9 @@
             "отражен",
             "симметри"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1646,7 +1780,9 @@
             "устойчивост",
             "корректурн"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1666,7 +1802,9 @@
             "клеточк",
             "отражен"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1688,7 +1826,9 @@
             "кит",
             "дракон"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1696,7 +1836,9 @@
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.VNIMANIE"
+          ]
         },
         {
           "name": "Праздники",
@@ -1707,7 +1849,9 @@
             "8 март",
             "рождеств"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1725,7 +1869,9 @@
             "финальн",
             "итогов"
           ],
-          "K": [],
+          "K": [
+            "K.KALIGR.IST"
+          ],
           "S": [
             "S.KALIGR.PROPISN"
           ],
@@ -1765,7 +1911,9 @@
             "составн",
             "римск"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1785,7 +1933,9 @@
             "сумм",
             "разност"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1803,7 +1953,9 @@
             "умножен",
             "делен"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1823,7 +1975,9 @@
             "знаменат",
             "числит"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1842,7 +1996,9 @@
             "равенств",
             "неравенств"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1861,7 +2017,9 @@
             "пропорц",
             "отношен"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1881,7 +2039,9 @@
             "ребус",
             "головолом"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1902,7 +2062,9 @@
             "треуг",
             "квадрат"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1910,7 +2072,9 @@
             "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Делимость",
@@ -1921,7 +2085,9 @@
             "делитель",
             "кратн"
           ],
-          "K": [],
+          "K": [
+            "K.LOGIKA.ZAKON"
+          ],
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
@@ -1969,7 +2135,9 @@
           "C": [
             "C.BEREZHLIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Спрос-предложение",
@@ -1980,14 +2148,18 @@
             "безработ",
             "конкурен"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.RASHODY"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Бизнес и стартап",
@@ -1997,14 +2169,18 @@
             "стартап",
             "мышлени лидер"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.PREZENT"
           ],
           "C": [
             "C.LIDERSTVO"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Маркетинг и реклама",
@@ -2014,14 +2190,18 @@
             "упаковк",
             "продаж"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.PREZENT"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Банк и кредиты",
@@ -2040,7 +2220,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Страхование",
@@ -2057,7 +2239,9 @@
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Инвестиции",
@@ -2069,14 +2253,18 @@
             "криптовалют",
             "блокчейн"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.RASHODY"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Бюджет и цели",
@@ -2093,7 +2281,9 @@
           "C": [
             "C.BEREZHLIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Налоги",
@@ -2101,14 +2291,18 @@
             "налог",
             "пенси"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.RASHODY"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Безопасность",
@@ -2139,14 +2333,18 @@
             "граждан",
             "государств"
           ],
-          "K": [],
+          "K": [
+            "K.FIN910.EVOL"
+          ],
           "S": [
             "S.FIN910.RASHODY"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         }
       ]
     },
@@ -2216,7 +2414,9 @@
             "тематическ",
             "словарн"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.CHTENIE"
           ],
@@ -2238,7 +2438,9 @@
             "падеж",
             "указательн"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.CHTENIE"
           ],
@@ -2246,7 +2448,9 @@
             "C.INTERES_KULTURY",
             "C.OTKRYTOST"
           ],
-          "M": []
+          "M": [
+            "M.PAMIAT"
+          ]
         },
         {
           "name": "Диалог",
@@ -2255,7 +2459,9 @@
             "говорен",
             "диалогич"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.DIALOG"
           ],
@@ -2272,8 +2478,12 @@
             "аудиров",
             "восприят на слух"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
+          "S": [
+            "S.ENG68.DIALOG"
+          ],
           "C": [
             "C.INTERES_KULTURY",
             "C.OTKRYTOST"
@@ -2318,7 +2528,9 @@
             "цифр",
             "цвет"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.CHISLA_CVETA"
+          ],
           "S": [
             "S.ENG68.DIALOG"
           ],
@@ -2337,7 +2549,9 @@
             "счёт",
             "счет"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.CHTENIE"
           ],
@@ -2357,7 +2571,9 @@
             "обобщен",
             "активиз"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.CHTENIE"
           ],
@@ -2374,7 +2590,9 @@
           "keywords": [
             "проект"
           ],
-          "K": [],
+          "K": [
+            "K.ENG68.SLOVAR"
+          ],
           "S": [
             "S.ENG68.DIALOG"
           ],
@@ -2382,7 +2600,9 @@
             "C.INTERES_KULTURY",
             "C.OTKRYTOST"
           ],
-          "M": []
+          "M": [
+            "M.PAMIAT"
+          ]
         }
       ]
     },
@@ -2564,7 +2784,9 @@
           "C": [
             "C.INICIATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Ответственность",
@@ -2684,7 +2906,9 @@
           "C": [
             "C.INTERES_TEHNIKA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Алгоритмы и циклы",
@@ -2745,7 +2969,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Переменные",
@@ -2805,7 +3031,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Игры",
@@ -2890,7 +3118,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Физика",
@@ -2950,7 +3180,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Демонстрация",
@@ -2970,7 +3202,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "3D",
@@ -2989,7 +3223,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Инвентарь",
@@ -3146,7 +3382,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Программирование",
@@ -3184,7 +3422,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Творчество",
@@ -3203,7 +3443,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Праздничные",
@@ -3223,7 +3465,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         }
       ]
     },
@@ -3250,7 +3494,9 @@
             "степен",
             "показател"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3302,7 +3548,9 @@
             "тождеств",
             "сокращ"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3320,7 +3568,9 @@
             "уравнени",
             "неравенств"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3339,7 +3589,9 @@
             "процент",
             "отношен"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3357,8 +3609,12 @@
             "функц",
             "график"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
           "C": [
             "C.NASTOICHIVOST",
             "C.CELEUSTREMLENNOST"
@@ -3374,7 +3630,9 @@
             "нестандарт",
             "стратеги"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3413,7 +3671,9 @@
             "обобщен",
             "систематизац"
           ],
-          "K": [],
+          "K": [
+            "K.KMS.SISTEMY"
+          ],
           "S": [
             "S.KMS.NESTAND"
           ],
@@ -3453,13 +3713,19 @@
             "материал",
             "свойств"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
+          "S": [
+            "S.GLINA813.PLAST"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Лепка из пласта",
@@ -3467,8 +3733,12 @@
             "пласт",
             "эскиз"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
+          "S": [
+            "S.GLINA813.PLAST"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
@@ -3485,8 +3755,12 @@
             "подсвечник",
             "кашпо"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
+          "S": [
+            "S.GLINA813.PLAST"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
@@ -3503,7 +3777,9 @@
             "декор",
             "роспис"
           ],
-          "K": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
           "S": [
             "S.GLINA813.DEKOR"
           ],
@@ -3511,7 +3787,9 @@
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Композиция",
@@ -3519,7 +3797,9 @@
             "композиц",
             "сюжет"
           ],
-          "K": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
           "S": [
             "S.GLINA813.KOMPOZ"
           ],
@@ -3538,8 +3818,12 @@
             "игрушк",
             "сувенир"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
+          "S": [
+            "S.GLINA813.PLAST"
+          ],
           "C": [
             "C.USIDCHIVOST",
             "C.OTVETSTVENNOST"
@@ -3555,12 +3839,18 @@
             "мотив",
             "традиц"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.GLINA813.VIDY"
+          ],
+          "S": [
+            "S.GLINA813.PLAST"
+          ],
           "C": [
             "C.UVAZH_KULTURY"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         }
       ]
     },
@@ -3589,7 +3879,9 @@
             "инструмент",
             "материал"
           ],
-          "K": [],
+          "K": [
+            "K.POLIM.SVOISTVA"
+          ],
           "S": [
             "S.POLIM.MINI"
           ],
@@ -3597,7 +3889,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Техники",
@@ -3616,7 +3910,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Украшения",
@@ -3627,7 +3923,9 @@
             "кулон",
             "бус"
           ],
-          "K": [],
+          "K": [
+            "K.POLIM.SVOISTVA"
+          ],
           "S": [
             "S.POLIM.UKR"
           ],
@@ -3646,7 +3944,9 @@
             "миниатюр",
             "персонаж"
           ],
-          "K": [],
+          "K": [
+            "K.POLIM.SVOISTVA"
+          ],
           "S": [
             "S.POLIM.MINI"
           ],
@@ -3654,7 +3954,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Декорирование",
@@ -3663,14 +3965,18 @@
             "декор",
             "тонировк"
           ],
-          "K": [],
+          "K": [
+            "K.POLIM.SVOISTVA"
+          ],
           "S": [
             "S.POLIM.UKR"
           ],
           "C": [
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PLANIROVANIE"
+          ]
         },
         {
           "name": "Запекание",
@@ -3699,7 +4005,9 @@
             "приёмы лепк",
             "простые фигур"
           ],
-          "K": [],
+          "K": [
+            "K.POLIM.SVOISTVA"
+          ],
           "S": [
             "S.POLIM.MINI"
           ],
@@ -3741,26 +4049,38 @@
             "растушевк",
             "пастель"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.GRAFIKA"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Акварель",
           "keywords": [
             "акварель"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.AKV"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Гуашь",
@@ -3768,13 +4088,19 @@
             "гуашь",
             "акрил"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.AKV"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Натюрморт",
@@ -3783,39 +4109,58 @@
             "букет",
             "цветы"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.KOMPOZ"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Пейзаж",
           "keywords": [
             "пейзаж"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.KOMPOZ"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Портрет",
           "keywords": [
             "портрет"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.KOMPOZ"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV",
+            "S.RIS.PORTRET"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Композиция",
@@ -3827,12 +4172,16 @@
           "K": [
             "K.RIS.KOMPOZ"
           ],
-          "S": [],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Цвет",
@@ -3842,13 +4191,19 @@
             "смешиван",
             "градиент"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.AKV"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Скетчинг",
@@ -3860,12 +4215,16 @@
           "K": [
             "K.RIS.KOMPOZ"
           ],
-          "S": [],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
-          "M": []
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
         },
         {
           "name": "Особые техники",
@@ -3874,8 +4233,13 @@
             "пуантилизм",
             "трафарет"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.RIS.AKV",
+            "K.RIS.PASTEL"
+          ],
+          "S": [
+            "S.RIS.ZHIV_AKV"
+          ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
@@ -3909,7 +4273,9 @@
             "знаком",
             "самоценность"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -3929,7 +4295,9 @@
             "строени",
             "репродуктив"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -3948,14 +4316,18 @@
             "красот",
             "стиль"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
         },
         {
           "name": "Менструация",
@@ -3963,7 +4335,9 @@
             "менструац",
             "цикл"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -3980,7 +4354,9 @@
             "пуберт",
             "переход возраст"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -4000,7 +4376,9 @@
           "K": [
             "K.VZR.EMOCII"
           ],
-          "S": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
@@ -4018,7 +4396,9 @@
           "K": [
             "K.VZR.GRANICY"
           ],
-          "S": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
@@ -4037,7 +4417,9 @@
           "K": [
             "K.VZR.OTNOSH"
           ],
-          "S": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
           "C": [
             "C.OTVETSTVENNOST"
           ],
@@ -4052,7 +4434,9 @@
             "врач",
             "медицин"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -4068,7 +4452,9 @@
           "keywords": [
             "беременн"
           ],
-          "K": [],
+          "K": [
+            "K.VZR.FIZIOLOG"
+          ],
           "S": [
             "S.VZR.GIGIENA"
           ],
@@ -4105,14 +4491,18 @@
             "алгоритм",
             "управлен"
           ],
-          "K": [],
+          "K": [
+            "K.MC.ALGORITMY"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
           "C": [
             "C.TAIM_MENEDZHMENT"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Циклы",
@@ -4121,7 +4511,10 @@
             "повтор",
             "вложен"
           ],
-          "K": [],
+          "K": [
+            "K.MC.ALGORITMY",
+            "K.MC.CIKLY"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4129,7 +4522,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "События",
@@ -4137,7 +4532,9 @@
             "событи",
             "реагир"
           ],
-          "K": [],
+          "K": [
+            "K.MC.EVENT_KOORD"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4145,7 +4542,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Координаты",
@@ -4154,7 +4553,9 @@
             "абсолютн",
             "относитель"
           ],
-          "K": [],
+          "K": [
+            "K.MC.EVENT_KOORD"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4175,8 +4576,13 @@
             "клонирован",
             "радиус"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.MC.ALGORITMY",
+            "K.MC.EVENT_KOORD"
+          ],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
@@ -4192,7 +4598,9 @@
             "счетчик",
             "таймер"
           ],
-          "K": [],
+          "K": [
+            "K.MC.VAR"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4200,7 +4608,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Условия",
@@ -4210,7 +4620,9 @@
             "ветвлен",
             "логическ"
           ],
-          "K": [],
+          "K": [
+            "K.MC.IF_ELSE"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4218,7 +4630,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Функции",
@@ -4226,7 +4640,9 @@
             "функц",
             "параметр"
           ],
-          "K": [],
+          "K": [
+            "K.MC.FUNC_ARR"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4234,7 +4650,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Массивы",
@@ -4242,7 +4660,9 @@
             "массив",
             "словар"
           ],
-          "K": [],
+          "K": [
+            "K.MC.FUNC_ARR"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4250,7 +4670,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Проект",
@@ -4260,7 +4682,10 @@
             "миниигр",
             "квест"
           ],
-          "K": [],
+          "K": [
+            "K.MC.ALGORITMY",
+            "K.MC.FUNC_ARR"
+          ],
           "S": [
             "S.MC.PREZENT"
           ],
@@ -4279,7 +4704,10 @@
             "игр",
             "противник"
           ],
-          "K": [],
+          "K": [
+            "K.MC.ALGORITMY",
+            "K.MC.IF_ELSE"
+          ],
           "S": [
             "S.MC.MAKECODE"
           ],
@@ -4287,7 +4715,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         }
       ]
     },
@@ -4319,12 +4749,16 @@
           "K": [
             "K.ROBLOX.INTERFACE"
           ],
-          "S": [],
+          "S": [
+            "S.ROBLOX.MEHANIKI"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Объекты",
@@ -4334,8 +4768,12 @@
             "параметр",
             "настройк"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ROBLOX.IF_FUNC"
+          ],
+          "S": [
+            "S.ROBLOX.LUA"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
@@ -4351,13 +4789,19 @@
             "освещ",
             "эффект"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
+          "S": [
+            "S.ROBLOX.MEHANIKI"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Моделирование",
@@ -4389,7 +4833,9 @@
             "текстур",
             "визуальн"
           ],
-          "K": [],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
           "S": [
             "S.ROBLOX.3D"
           ],
@@ -4397,7 +4843,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Плагины",
@@ -4407,8 +4855,12 @@
             "brushtool",
             "tools"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
+          "S": [
+            "S.ROBLOX.MEHANIKI"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
@@ -4499,7 +4951,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "UI",
@@ -4511,8 +4965,12 @@
             "меню",
             "интерфейс игры"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
+          "S": [
+            "S.ROBLOX.MEHANIKI"
+          ],
           "C": [
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
@@ -4540,7 +4998,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "NPC",
@@ -4559,7 +5019,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Команда",
@@ -4569,8 +5031,12 @@
             "совмест",
             "распределен рол"
           ],
-          "K": [],
-          "S": [],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
+          "S": [
+            "S.ROBLOX.MEHANIKI"
+          ],
           "C": [
             "C.KOMANDA"
           ],
@@ -4603,7 +5069,9 @@
             "публик",
             "релиз"
           ],
-          "K": [],
+          "K": [
+            "K.ROBLOX.SVOISTVA"
+          ],
           "S": [
             "S.ROBLOX.PUBLIK"
           ],
@@ -4652,7 +5120,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
         },
         {
           "name": "Примитивы",
@@ -4825,7 +5295,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
         },
         {
           "name": "Линия",
@@ -4834,7 +5306,9 @@
             "линия",
             "рисунок"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.PLANSHET"
           ],
@@ -4875,14 +5349,18 @@
             "иконк",
             "детализац иконк"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.ILL"
           ],
           "C": [
             "C.AKKURATNOST"
           ],
-          "M": []
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
         },
         {
           "name": "Презентация",
@@ -4891,7 +5369,9 @@
             "реклам",
             "маркетинг"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.ILL"
           ],
@@ -4913,7 +5393,9 @@
             "характер",
             "харизм"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.ILL"
           ],
@@ -4921,7 +5403,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
         },
         {
           "name": "Книжная иллюстрация",
@@ -4950,7 +5434,9 @@
             "стикер",
             "стикерпак"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.ILL"
           ],
@@ -4958,7 +5444,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
         },
         {
           "name": "Композиция и слои",
@@ -4975,7 +5463,9 @@
           "C": [
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
         },
         {
           "name": "Авторское право",
@@ -4983,7 +5473,9 @@
             "авторск прав",
             "защит проект"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.EXPORT"
           ],
@@ -5022,7 +5514,9 @@
             "мокап",
             "mockup"
           ],
-          "K": [],
+          "K": [
+            "K.DIGIT1113.GRAFIKA"
+          ],
           "S": [
             "S.DIGIT1113.EXPORT"
           ],
@@ -5070,7 +5564,9 @@
           "C": [
             "C.UPORSTVO"
           ],
-          "M": []
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
         },
         {
           "name": "Моделирование",
@@ -5134,7 +5630,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
         },
         {
           "name": "Geometry Nodes",
@@ -5153,7 +5651,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
         },
         {
           "name": "Текстурирование",
@@ -5285,7 +5785,9 @@
             "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
-          "M": []
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
         }
       ]
     },
@@ -5326,7 +5828,9 @@
             "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Химия",
@@ -5350,7 +5854,9 @@
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Физика",
@@ -5375,7 +5881,9 @@
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Анатомия",
@@ -5397,7 +5905,9 @@
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Эксперименты",
@@ -5409,7 +5919,9 @@
             "оборудован",
             "демонстрац"
           ],
-          "K": [],
+          "K": [
+            "K.NS.NAUCH_KARTINA"
+          ],
           "S": [
             "S.NS.EKSPERIM"
           ],
@@ -5417,7 +5929,9 @@
             "C.LYUBOZNATELNOST",
             "C.INTERES_NAUKA"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Природа",
@@ -5427,7 +5941,9 @@
             "погод",
             "сезон"
           ],
-          "K": [],
+          "K": [
+            "K.NS.NAUCH_KARTINA"
+          ],
           "S": [
             "S.NS.EKSPERIM"
           ],
@@ -5435,7 +5951,9 @@
             "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         },
         {
           "name": "Квест",
@@ -5445,14 +5963,18 @@
             "итогов",
             "детектив"
           ],
-          "K": [],
+          "K": [
+            "K.NS.NAUCH_KARTINA"
+          ],
           "S": [
             "S.NS.EKSPERIM"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
-          "M": []
+          "M": [
+            "M.POZNAV_INTERES"
+          ]
         }
       ]
     },
@@ -5480,14 +6002,18 @@
             "первые шаги",
             "компонент"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
           "C": [
             "C.INTERES_TEHNIKA"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Резисторы",
@@ -5498,7 +6024,9 @@
             "мультиметр",
             "переменн резистор"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.INSTR"
           ],
@@ -5517,7 +6045,9 @@
             "диод",
             "транзистор"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
@@ -5535,7 +6065,9 @@
             "конденсатор",
             "заряд"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
@@ -5577,7 +6109,9 @@
             "усилитель",
             "пьезо"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
@@ -5596,7 +6130,9 @@
             "fm",
             "радиоволн"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
@@ -5637,7 +6173,9 @@
             "температур",
             "влажност"
           ],
-          "K": [],
+          "K": [
+            "K.DET.SBORKA"
+          ],
           "S": [
             "S.DET.INSTR"
           ],
@@ -5750,7 +6288,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         },
         {
           "name": "Презентация",
@@ -5780,7 +6320,9 @@
             "светодиод",
             "led"
           ],
-          "K": [],
+          "K": [
+            "K.DET.KOMPONENT"
+          ],
           "S": [
             "S.DET.SBORKA"
           ],
@@ -5808,7 +6350,9 @@
             "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
-          "M": []
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
         }
       ]
     },
@@ -5847,7 +6391,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "SQL",
@@ -5868,7 +6414,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "JOIN",
@@ -5888,7 +6436,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "ООП",
@@ -5955,7 +6505,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "JavaScript",
@@ -5976,7 +6528,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "REST API",
@@ -5997,7 +6551,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Flask",
@@ -6017,7 +6573,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Деплой",
@@ -6036,7 +6594,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Проект",
@@ -6056,7 +6616,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         },
         {
           "name": "Олимпиада",
@@ -6074,7 +6636,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ALGORITM_MYSHL"
+          ]
         }
       ]
     },
@@ -6114,7 +6678,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Условия",
@@ -6132,7 +6698,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Циклы",
@@ -6152,7 +6720,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Массивы",
@@ -6191,7 +6761,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Управление",
@@ -6210,7 +6782,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Физика",
@@ -6231,7 +6805,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Игровые системы",
@@ -6253,7 +6829,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "UI",
@@ -6272,7 +6850,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Звук",
@@ -6292,7 +6872,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Объекты",
@@ -6311,7 +6893,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Враги",
@@ -6333,7 +6917,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Эффекты",
@@ -6354,7 +6940,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "Рефакторинг",
@@ -6394,7 +6982,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         },
         {
           "name": "3D",
@@ -6414,7 +7004,9 @@
             "C.OTVETSTVENNOST",
             "C.KOMANDA"
           ],
-          "M": []
+          "M": [
+            "M.ARH_MYSHL"
+          ]
         }
       ]
     }
