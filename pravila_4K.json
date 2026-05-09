@@ -40,7 +40,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -69,7 +70,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE",
@@ -98,7 +100,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE",
@@ -127,7 +130,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -149,7 +153,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -173,7 +178,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.GOV23.SRAVNENIE"
@@ -193,7 +199,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -216,7 +223,8 @@
             "S.GOV23.SENSOR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.GOV23.SRAVNENIE"
@@ -237,7 +245,8 @@
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.KOMANDA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -283,6 +292,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -309,6 +319,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -354,6 +365,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -373,6 +385,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -390,6 +403,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -408,6 +422,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -426,6 +441,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -443,6 +459,7 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
+            "C.OTVETSTVENNOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -482,7 +499,9 @@
           "S": [
             "S.NEYRO46.KOORD"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -502,7 +521,9 @@
           "S": [
             "S.NEYRO46.KOORD"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -524,7 +545,9 @@
           "S": [
             "S.NEYRO46.KOORD"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -540,7 +563,9 @@
             "K.NEYRO46.RELAX"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -568,7 +593,9 @@
           "S": [
             "S.NEYRO46.KOM_IGR"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -589,7 +616,9 @@
           "S": [
             "S.NEYRO46.KOORD"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -608,7 +637,9 @@
             "S.NEYRO46.BALANS",
             "S.NEYRO46.KOORD"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -627,7 +658,9 @@
           "S": [
             "S.NEYRO46.KOM_IGR"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -645,7 +678,9 @@
           "S": [
             "S.NEYRO46.SAMOREG"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -666,7 +701,9 @@
             "S.NEYRO46.KOORD",
             "S.NEYRO46.KOM_IGR"
           ],
-          "C": [],
+          "C": [
+            "C.KOMANDA"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -706,7 +743,9 @@
           "S": [
             "S.AZB.ARTIKULYACIYA"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -724,7 +763,9 @@
             "S.AZB.MOTORIKA",
             "S.AZB.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_CHTENIE"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -743,7 +784,9 @@
           "S": [
             "S.AZB.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_CHTENIE"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -765,7 +808,9 @@
           "S": [
             "S.AZB.PREDLOZH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -782,7 +827,9 @@
           "S": [
             "S.AZB.PREDLOZH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -798,7 +845,9 @@
           "S": [
             "S.AZB.PERESKAZ"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -817,7 +866,9 @@
           "S": [
             "S.AZB.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_CHTENIE"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -833,7 +884,9 @@
           "S": [
             "S.AZB.PREDLOZH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -849,7 +902,9 @@
           "S": [
             "S.AZB.PERESKAZ"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -909,6 +964,7 @@
           ],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -952,6 +1008,7 @@
           ],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -972,6 +1029,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -990,6 +1048,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -1008,6 +1067,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -1026,7 +1086,8 @@
           ],
           "S": [],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.INTERES_CHTENIE"
           ],
           "M": []
         },
@@ -1042,7 +1103,10 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": []
         },
         {
@@ -1056,6 +1120,7 @@
           ],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -1074,6 +1139,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -1110,7 +1176,10 @@
             "K.PESK.TEHN"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": []
         },
         {
@@ -1127,7 +1196,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": [
             "M.KREATIV_MYSHL"
           ]
@@ -1146,7 +1218,7 @@
           "K": [],
           "S": [],
           "C": [
-            "C.KREATIVNOST"
+            "C.AKKURATNOST"
           ],
           "M": [
             "M.KREATIV_MYSHL"
@@ -1164,6 +1236,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
           "M": [
@@ -1184,7 +1257,8 @@
           ],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -1199,6 +1273,7 @@
           "K": [],
           "S": [],
           "C": [
+            "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
           "M": [
@@ -1215,7 +1290,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": []
         }
       ]
@@ -1248,7 +1326,8 @@
             "S.ART68.ZHIV_GUASH"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1264,7 +1343,8 @@
             "S.ART68.ZHIV_AKV"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1282,7 +1362,8 @@
             "S.ART68.GRAFIKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1298,7 +1379,8 @@
             "S.ART68.ZHIV_GUASH"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1313,7 +1395,10 @@
           "S": [
             "S.ART68.ZHIV_GUASH"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -1328,7 +1413,10 @@
           "S": [
             "S.ART68.GRAFIKA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -1343,7 +1431,10 @@
           "S": [
             "S.ART68.ZHIV_GUASH"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -1362,7 +1453,8 @@
             "S.ART68.SMESHIV"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1378,7 +1470,8 @@
             "S.ART68.GRAFIKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -1395,7 +1488,10 @@
           "S": [
             "S.ART68.PRIROD_MAT"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.KREATIV_MYSHL"
           ]
@@ -1413,7 +1509,10 @@
           "S": [
             "S.ART68.ZHIV_GUASH"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -1429,7 +1528,10 @@
           "S": [
             "S.ART68.PREZENTACIYA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         }
       ]
@@ -1465,7 +1567,8 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
             "M.VNIMANIE"
@@ -1485,7 +1588,8 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
             "M.VNIMANIE"
@@ -1505,7 +1609,7 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.ESTET_VKUS"
           ],
           "M": [
             "M.PROSTR_MYSHL"
@@ -1527,7 +1631,8 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
             "M.VNIMANIE"
@@ -1546,7 +1651,7 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.USIDCHIVOST"
           ],
           "M": [
             "M.VNIMANIE"
@@ -1566,7 +1671,8 @@
             "S.KALIGR.PROPISN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
             "M.PROSTR_MYSHL"
@@ -1586,7 +1692,10 @@
           "S": [
             "S.KALIGR.PROPISN"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": []
         },
         {
@@ -1602,7 +1711,10 @@
           "S": [
             "S.KALIGR.PROPISN"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -1617,7 +1729,10 @@
           "S": [
             "S.KALIGR.PROPISN"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -1654,7 +1769,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1671,7 +1789,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1686,7 +1807,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1703,7 +1827,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1719,7 +1846,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1735,7 +1865,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1752,7 +1885,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1770,7 +1906,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": []
         },
         {
@@ -1786,7 +1925,10 @@
           "S": [
             "S.LOGIKA.RESH_LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -1825,7 +1967,7 @@
             "S.FIN910.RASHODY"
           ],
           "C": [
-            "C.OTVETSTVENNOST"
+            "C.BEREZHLIVOST"
           ],
           "M": []
         },
@@ -1860,7 +2002,7 @@
             "S.FIN910.PREZENT"
           ],
           "C": [
-            "C.INICIATIVNOST"
+            "C.LIDERSTVO"
           ],
           "M": []
         },
@@ -1876,7 +2018,9 @@
           "S": [
             "S.FIN910.PREZENT"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -1947,7 +2091,7 @@
             "S.FIN910.RASHODY"
           ],
           "C": [
-            "C.OTVETSTVENNOST"
+            "C.BEREZHLIVOST"
           ],
           "M": []
         },
@@ -2035,7 +2179,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2053,7 +2200,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2070,7 +2220,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2089,7 +2242,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": []
         },
         {
@@ -2103,7 +2259,9 @@
           "S": [
             "S.ENG68.DIALOG"
           ],
-          "C": [],
+          "C": [
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2116,7 +2274,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -2133,7 +2294,10 @@
           "S": [
             "S.ENG68.DIALOG"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.VNIMANIE"
           ]
@@ -2158,7 +2322,10 @@
           "S": [
             "S.ENG68.DIALOG"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2174,7 +2341,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2191,7 +2361,10 @@
           "S": [
             "S.ENG68.CHTENIE"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": [
             "M.PAMIAT"
           ]
@@ -2205,7 +2378,10 @@
           "S": [
             "S.ENG68.DIALOG"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.OTKRYTOST"
+          ],
           "M": []
         }
       ]
@@ -2240,7 +2416,9 @@
           "S": [
             "S.7N.AKTIV_SLUSH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2260,7 +2438,9 @@
           "S": [
             "S.7N910.KOMANDA"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2319,7 +2499,9 @@
           "S": [
             "S.7N910.YA_SOOBSHCH"
           ],
-          "C": [],
+          "C": [
+            "C.EMPATIYA"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2339,7 +2521,9 @@
           "S": [
             "S.7N910.RAZRESH_KONFL"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2378,7 +2562,7 @@
             "S.7N910.PLAN_CELEY"
           ],
           "C": [
-            "C.OTVETSTVENNOST"
+            "C.INICIATIVNOST"
           ],
           "M": []
         },
@@ -2437,7 +2621,9 @@
           "S": [
             "S.7N.AKTIV_SLUSH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2455,7 +2641,9 @@
           "S": [
             "S.7N910.YA_SOOBSHCH"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -2493,7 +2681,9 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_TEHNIKA"
+          ],
           "M": []
         },
         {
@@ -2509,7 +2699,9 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2527,7 +2719,10 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2546,7 +2741,10 @@
           "S": [
             "S.SCRATCH.SPRITE"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2563,7 +2761,10 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2580,7 +2781,10 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KREATIV_MYSHL"
           ]
@@ -2597,7 +2801,10 @@
           "S": [
             "S.SCRATCH.ANIM"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2619,7 +2826,10 @@
           "S": [
             "S.SCRATCH.IGRY"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2637,7 +2847,10 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2654,7 +2867,10 @@
           "S": [
             "S.SCRATCH.SPRITE"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2670,7 +2886,10 @@
           "S": [
             "S.SCRATCH.SPRITE"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2687,7 +2906,10 @@
           "S": [
             "S.SCRATCH.IGRY"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2703,7 +2925,10 @@
           "S": [
             "S.SCRATCH.BLOKI"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.DEKOMPOZICIYA"
           ]
@@ -2721,7 +2946,10 @@
           "S": [
             "S.SCRATCH.IGRY"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2738,7 +2966,10 @@
           "S": [
             "S.SCRATCH.PUBLIK"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2754,7 +2985,10 @@
           "S": [
             "S.SCRATCH.IGRY"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2768,7 +3002,10 @@
           "S": [
             "S.SCRATCH.IGRY"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -2807,7 +3044,8 @@
             "S.ROBO68.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2825,7 +3063,8 @@
             "S.ROBO68.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2843,7 +3082,8 @@
             "S.ROBO68.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2861,7 +3101,8 @@
             "S.ROBO68.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2880,7 +3121,8 @@
             "S.ROBO68.SENSORY"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2901,7 +3143,8 @@
             "S.ROBO68.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": []
         },
@@ -2919,7 +3162,7 @@
             "S.ROBO68.VIZ_PROG"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.KOMANDA"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -2937,7 +3180,10 @@
           "S": [
             "S.ROBO68.PREZENT"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2953,7 +3199,10 @@
           "S": [
             "S.ROBO68.MODIF"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -2970,7 +3219,10 @@
           "S": [
             "S.ROBO68.SBORKA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         }
       ]
@@ -3002,7 +3254,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3031,7 +3286,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.PROSTR_VOOBR"
           ]
@@ -3048,7 +3306,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3063,7 +3324,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3079,7 +3343,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3092,7 +3359,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3108,7 +3378,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -3126,7 +3399,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3141,7 +3417,10 @@
           "S": [
             "S.KMS.NESTAND"
           ],
-          "C": [],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.CELEUSTREMLENNOST"
+          ],
           "M": [
             "M.OBOBSHCH_KLASSIF"
           ]
@@ -3176,7 +3455,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -3187,7 +3469,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3202,7 +3487,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3219,7 +3507,10 @@
           "S": [
             "S.GLINA813.DEKOR"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -3232,7 +3523,10 @@
           "S": [
             "S.GLINA813.KOMPOZ"
           ],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3246,7 +3540,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3260,7 +3557,9 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.UVAZH_KULTURY"
+          ],
           "M": []
         }
       ]
@@ -3295,7 +3594,8 @@
             "S.POLIM.MINI"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -3313,7 +3613,8 @@
             "S.POLIM.MINI"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -3331,6 +3632,7 @@
             "S.POLIM.UKR"
           ],
           "C": [
+            "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
           "M": [
@@ -3349,6 +3651,7 @@
             "S.POLIM.MINI"
           ],
           "C": [
+            "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
           "M": []
@@ -3365,7 +3668,7 @@
             "S.POLIM.UKR"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -3381,7 +3684,10 @@
           "S": [
             "S.POLIM.MINI"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3398,7 +3704,8 @@
             "S.POLIM.MINI"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PLANIROVANIE"
@@ -3437,7 +3744,8 @@
           "K": [],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": []
         },
@@ -3449,7 +3757,8 @@
           "K": [],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": []
         },
@@ -3462,7 +3771,8 @@
           "K": [],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": []
         },
@@ -3475,7 +3785,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": []
         },
         {
@@ -3485,7 +3798,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": []
         },
         {
@@ -3495,7 +3811,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": []
         },
         {
@@ -3510,7 +3829,8 @@
           ],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": []
         },
@@ -3525,7 +3845,8 @@
           "K": [],
           "S": [],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
           ],
           "M": []
         },
@@ -3540,7 +3861,10 @@
             "K.RIS.KOMPOZ"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": []
         },
         {
@@ -3552,7 +3876,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
           "M": [
             "M.KREATIV_MYSHL"
           ]
@@ -3587,7 +3914,7 @@
             "S.VZR.GIGIENA"
           ],
           "C": [
-            "C.UVERENNOST"
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.KRITICH_MYSHL"
@@ -3674,7 +4001,9 @@
             "K.VZR.EMOCII"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -3709,7 +4038,9 @@
             "K.VZR.OTNOSH"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -3778,7 +4109,9 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.TAIM_MENEDZHMENT"
+          ],
           "M": []
         },
         {
@@ -3792,7 +4125,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3805,7 +4141,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3819,7 +4158,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -3835,7 +4177,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -3851,7 +4196,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3866,7 +4214,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3879,7 +4230,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3892,7 +4246,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3907,7 +4264,10 @@
           "S": [
             "S.MC.PREZENT"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -3923,7 +4283,10 @@
           "S": [
             "S.MC.MAKECODE"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         }
       ]
@@ -3957,7 +4320,10 @@
             "K.ROBLOX.INTERFACE"
           ],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -3970,7 +4336,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -3984,7 +4353,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -4002,7 +4374,10 @@
           "S": [
             "S.ROBLOX.3D"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -4018,7 +4393,10 @@
           "S": [
             "S.ROBLOX.3D"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -4031,7 +4409,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -4048,7 +4429,10 @@
           "S": [
             "S.ROBLOX.3D"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -4067,7 +4451,10 @@
           "S": [
             "S.ROBLOX.LUA"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -4088,7 +4475,10 @@
           "S": [
             "S.ROBLOX.LUA"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -4105,7 +4495,10 @@
           "S": [
             "S.ROBLOX.LUA"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -4120,7 +4513,10 @@
           ],
           "K": [],
           "S": [],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -4140,7 +4536,10 @@
           "S": [
             "S.ROBLOX.ANIM"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -4156,7 +4555,10 @@
           "S": [
             "S.ROBLOX.3D"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -4187,7 +4589,10 @@
           "S": [
             "S.ROBLOX.3D"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -4202,7 +4607,10 @@
           "S": [
             "S.ROBLOX.PUBLIK"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -4240,7 +4648,10 @@
           "S": [
             "S.TINKER.MODEL_PRIM"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": []
         },
         {
@@ -4264,7 +4675,10 @@
           "S": [
             "S.TINKER.MODEL_PRIM"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": [
             "M.VIZUAL"
           ]
@@ -4281,7 +4695,8 @@
             "S.TINKER.OTVERST"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PLANIROVANIE"
@@ -4301,7 +4716,8 @@
             "S.TINKER.GRUPP"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PLANIROVANIE"
@@ -4323,6 +4739,7 @@
             "S.TINKER.SKETCH"
           ],
           "C": [
+            "C.AKKURATNOST",
             "C.KREATIVNOST"
           ],
           "M": [
@@ -4341,7 +4758,10 @@
           "S": [
             "S.TINKER.RAB_PLOSK"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
+          ],
           "M": [
             "M.PROSTR_MYSHL"
           ]
@@ -4361,7 +4781,8 @@
             "S.TINKER.VYRAVN"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PROSTR_MYSHL"
@@ -4400,7 +4821,10 @@
           "S": [
             "S.DIGIT1113.REDAKT"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         },
         {
@@ -4415,7 +4839,8 @@
             "S.DIGIT1113.PLANSHET"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.VIZ_MYSHL"
@@ -4437,7 +4862,8 @@
             "S.DIGIT1113.REDAKT"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.VIZ_MYSHL"
@@ -4469,7 +4895,10 @@
           "S": [
             "S.DIGIT1113.ILL"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -4489,7 +4918,8 @@
             "S.DIGIT1113.ILL"
           ],
           "C": [
-            "C.KREATIVNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": []
         },
@@ -4507,7 +4937,8 @@
             "S.DIGIT1113.ILL"
           ],
           "C": [
-            "C.KREATIVNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.PLANIROVANIE"
@@ -4524,7 +4955,8 @@
             "S.DIGIT1113.ILL"
           ],
           "C": [
-            "C.KREATIVNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": []
         },
@@ -4541,7 +4973,7 @@
             "S.DIGIT1113.REDAKT"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -4556,6 +4988,7 @@
             "S.DIGIT1113.EXPORT"
           ],
           "C": [
+            "C.AKKURATNOST",
             "C.OTVETSTVENNOST"
           ],
           "M": [
@@ -4575,7 +5008,10 @@
           "S": [
             "S.DIGIT1113.EXPORT"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -4591,7 +5027,8 @@
             "S.DIGIT1113.EXPORT"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.VIZ_MYSHL"
@@ -4631,7 +5068,7 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.UPORSTVO"
           ],
           "M": []
         },
@@ -4649,7 +5086,8 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PROSTR_MYSHL"
@@ -4669,7 +5107,8 @@
             "S.BL.UV"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PROSTR_MYSHL"
@@ -4692,7 +5131,8 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -4710,7 +5150,8 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         },
@@ -4730,7 +5171,8 @@
             "S.BL.MAT_UNITY"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.VIZUAL"
@@ -4750,7 +5192,8 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PIPELINE"
@@ -4771,7 +5214,8 @@
             "S.BL.RIG"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.VIZUAL"
@@ -4793,7 +5237,8 @@
             "S.BL.UNITY"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PIPELINE"
@@ -4813,7 +5258,8 @@
             "S.BL.MODEL"
           ],
           "C": [
-            "C.UPORSTVO"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": [
             "M.PIPELINE"
@@ -4836,7 +5282,8 @@
             "S.BL.UNITY"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.KREATIVNOST"
           ],
           "M": []
         }
@@ -4876,6 +5323,7 @@
             "S.NS.EKSPERIM"
           ],
           "C": [
+            "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -4966,7 +5414,8 @@
             "S.NS.EKSPERIM"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.INTERES_NAUKA"
           ],
           "M": []
         },
@@ -4983,6 +5432,7 @@
             "S.NS.EKSPERIM"
           ],
           "C": [
+            "C.BEREZHN_PRIRODA",
             "C.LYUBOZNATELNOST"
           ],
           "M": []
@@ -5034,7 +5484,9 @@
           "S": [
             "S.DET.SBORKA"
           ],
-          "C": [],
+          "C": [
+            "C.INTERES_TEHNIKA"
+          ],
           "M": []
         },
         {
@@ -5051,7 +5503,8 @@
             "S.DET.INSTR"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5069,7 +5522,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5086,7 +5540,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5106,7 +5561,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5126,7 +5582,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5143,7 +5600,10 @@
           "S": [
             "S.DET.SBORKA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -5162,7 +5622,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5181,7 +5642,8 @@
             "S.DET.INSTR"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5200,7 +5662,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5221,7 +5684,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5241,7 +5705,8 @@
             "S.DET.SBORKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.LOGICHESK_MYSHL"
@@ -5260,7 +5725,10 @@
           "S": [
             "S.DET.SBORKA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -5279,7 +5747,8 @@
             "S.DET.PAYKA"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": []
         },
@@ -5296,7 +5765,10 @@
           "S": [
             "S.DET.PREZENT"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.PLANIROVANIE"
           ]
@@ -5312,7 +5784,10 @@
           "S": [
             "S.DET.SBORKA"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": [
             "M.LOGICHESK_MYSHL"
           ]
@@ -5329,7 +5804,10 @@
           "S": [
             "S.DET.INSTR"
           ],
-          "C": [],
+          "C": [
+            "C.AKKURATNOST",
+            "C.OTVETSTVENNOST"
+          ],
           "M": []
         }
       ]
@@ -5366,7 +5844,8 @@
             "S.PY1315.WEB"
           ],
           "C": [
-            "C.OTVETSTVENNOST"
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -5385,7 +5864,10 @@
           "S": [
             "S.PY1315.DB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5402,7 +5884,10 @@
           "S": [
             "S.PY1315.DB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5421,7 +5906,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.DEKOMPOZICIYA"
           ]
@@ -5440,7 +5928,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.DEKOMPOZICIYA"
           ]
@@ -5460,7 +5951,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5478,7 +5972,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5496,7 +5993,10 @@
           "S": [
             "S.PY1315.API"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5513,7 +6013,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5530,7 +6033,8 @@
             "S.PY1315.DEPLOY"
           ],
           "C": [
-            "C.OTVETSTVENNOST"
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -5548,7 +6052,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5563,7 +6070,10 @@
           "S": [
             "S.PY1315.WEB"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         }
       ]
@@ -5600,7 +6110,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5615,7 +6128,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5632,7 +6148,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5647,7 +6166,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.DEKOMPOZICIYA"
           ]
@@ -5665,7 +6187,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5681,7 +6206,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5699,7 +6227,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5718,7 +6249,10 @@
           "S": [
             "S.UNITYCSH.PATTERNS"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5734,7 +6268,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5751,7 +6288,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5767,7 +6307,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5786,7 +6329,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5804,7 +6350,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         },
         {
@@ -5820,7 +6369,10 @@
           "S": [
             "S.UNITYCSH.OPT"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": [
             "M.KRITICH_MYSHL"
           ]
@@ -5839,7 +6391,8 @@
             "S.UNITYCSH.PATTERNS"
           ],
           "C": [
-            "C.UPORSTVO"
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
           ],
           "M": []
         },
@@ -5857,7 +6410,10 @@
           "S": [
             "S.UNITYCSH.LOGIC"
           ],
-          "C": [],
+          "C": [
+            "C.OTVETSTVENNOST",
+            "C.KOMANDA"
+          ],
           "M": []
         }
       ]
