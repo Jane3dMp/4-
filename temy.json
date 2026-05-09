@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-05-09 (manual seed for calibration)",
+  "description": "Заготовка только для калибровки на Tinkercad. Полная выгрузка пойдёт через Profile_TopicsExport.gs.",
+  "courses": {
+    "TINKER911": [
+      {"num": 1, "date": "", "title": "Основы 3Д моделирования. Области применения. Знакомство со средой Tinkercad", "sheet": "TinkerCad 1"},
+      {"num": 2, "date": "", "title": "Интерфейс Tinkercad. Копирование и вставка фигур. Изменение вида на рабочую плоскость, на фигуры. Библиотеки фигур.", "sheet": "TinkerCad 1"},
+      {"num": 3, "date": "", "title": "Основные примитивы (фигуры) в Tinkercad и их параметры. Сфера, параллелепипед, пирамида и цилиндр.", "sheet": "TinkerCad 1"},
+      {"num": 4, "date": "", "title": "Основные примитивы (фигуры) в Tinkercad и их параметры. Тор, конус и многоугольник.", "sheet": "TinkerCad 1"},
+      {"num": 5, "date": "", "title": "Основные примитивы (фигуры) в Tinkercad и их параметры. Труба, звезда и параболоид.", "sheet": "TinkerCad 1"},
+      {"num": 6, "date": "", "title": "Отверстия в Tinkercad. Часть 1", "sheet": "TinkerCad 1"},
+      {"num": 7, "date": "", "title": "Отверстия в Tinkercad. Часть 2", "sheet": "TinkerCad 1"},
+      {"num": 8, "date": "", "title": "Копирование, группировка и сохранение многоцветности объектов. Часть 1", "sheet": "TinkerCad 1"},
+      {"num": 9, "date": "", "title": "Копирование, группировка и сохранение многоцветности объектов. Часть 2", "sheet": "TinkerCad 1"},
+      {"num": 10, "date": "", "title": "Инструменты скетчинга. Scribble и Вращение. Часть 1.", "sheet": "TinkerCad 1"},
+      {"num": 11, "date": "", "title": "Инструменты скетчинга. Выдавливание эскиза Часть 2", "sheet": "TinkerCad 1"},
+      {"num": 12, "date": "", "title": "Рабочая плоскость", "sheet": "TinkerCad 1"},
+      {"num": 13, "date": "", "title": "Инструменты Выровнять и Отразить", "sheet": "TinkerCad 1"},
+      {"num": 14, "date": "", "title": "Инструменты Выровнять и Отразить (продолжение, отработка)", "sheet": "TinkerCad 1"}
+    ]
+  },
+  "summary": {
+    "courses_with_topics": 1,
+    "total_topics": 14,
+    "note": "Это заготовка вручную для одного курса. Когда запустите Profile_TopicsExport.gs — этот файл заменится полной выгрузкой по всем 41 курсу."
+  }
+}
