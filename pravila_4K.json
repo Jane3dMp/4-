@@ -1,0 +1,5866 @@
+{
+  "version": "2.0",
+  "generated_at": "2026-05-09 (rules v2 with name-resolution)",
+  "description": "Правила автоматической разметки тем по 4К через ключевые слова",
+  "rules_engine": {
+    "match_logic": "Тема нормализуется (lowercase). Каждое правило с найденным keyword добавляет skill_id.",
+    "max_per_category": 2,
+    "fallback": "Если ни одно правило не сработало — default правило курса."
+  },
+  "courses": {
+    "GOV23": {
+      "course_name": "Говорилка 2-3",
+      "default": {
+        "K": [
+          "K.GOV23.OKR_MIR"
+        ],
+        "S": [
+          "S.GOV23.DIDAKT_IGR"
+        ],
+        "C": [
+          "C.LYUBOZNATELNOST"
+        ],
+        "M": [
+          "M.VNIMANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Сенсомоторное развитие",
+          "keywords": [
+            "сенсомотор",
+            "сенсорн",
+            "мотор",
+            "тактильн",
+            "сенсомот"
+          ],
+          "K": [],
+          "S": [
+            "S.GOV23.MOTORIKA",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Лесные животные",
+          "keywords": [
+            "лес",
+            "белк",
+            "мишк",
+            "медвед",
+            "волк",
+            "лось",
+            "ёж",
+            "еж",
+            "заяц",
+            "сов",
+            "обобщен"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE",
+            "M.GOV23.SRAVNENIE"
+          ]
+        },
+        {
+          "name": "Домашние животные",
+          "keywords": [
+            "домашн",
+            "кошк",
+            "собак",
+            "корова",
+            "лошад",
+            "кролик",
+            "курочк",
+            "овеч",
+            "козочк",
+            "поросен"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE",
+            "M.GOV23.SRAVNENIE"
+          ]
+        },
+        {
+          "name": "Сезоны природы",
+          "keywords": [
+            "осен",
+            "зим",
+            "весн",
+            "листопад",
+            "дождь",
+            "снег",
+            "метел",
+            "ветер",
+            "снегопад",
+            "ледян"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Птицы",
+          "keywords": [
+            "птиц",
+            "пингвин",
+            "воробей",
+            "снеги"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Овощи и фрукты",
+          "keywords": [
+            "овощ",
+            "фрукт",
+            "ягод",
+            "грибн",
+            "урожай",
+            "продукт"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.GOV23.SRAVNENIE"
+          ]
+        },
+        {
+          "name": "Игра и потешки",
+          "keywords": [
+            "потешк",
+            "стих",
+            "сказк",
+            "пальчик",
+            "хоровод"
+          ],
+          "K": [],
+          "S": [
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Цвет и форма",
+          "keywords": [
+            "цвет",
+            "форм",
+            "красн",
+            "син",
+            "желт",
+            "зелен",
+            "круг",
+            "квадрат"
+          ],
+          "K": [],
+          "S": [
+            "S.GOV23.SENSOR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.GOV23.SRAVNENIE"
+          ]
+        },
+        {
+          "name": "Праздники",
+          "keywords": [
+            "новый год",
+            "рождеств",
+            "пасх",
+            "8 март"
+          ],
+          "K": [
+            "K.GOV23.OKR_MIR"
+          ],
+          "S": [
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        }
+      ]
+    },
+    "POCH34": {
+      "course_name": "Почемучка 3-4",
+      "default": {
+        "K": [
+          "K.POCH34.ZHIVOTN"
+        ],
+        "S": [
+          "S.POCH34.NABLYUDENIE"
+        ],
+        "C": [
+          "C.LYUBOZNATELNOST"
+        ],
+        "M": [
+          "M.VNIMANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Лесные обитатели",
+          "keywords": [
+            "лес",
+            "белк",
+            "мишк",
+            "медвед",
+            "волк",
+            "лось",
+            "ёж",
+            "еж",
+            "заяц",
+            "сов"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.OBOBSHCH_KLASSIF"
+          ]
+        },
+        {
+          "name": "Домашние животные",
+          "keywords": [
+            "котик",
+            "собак",
+            "корова",
+            "лошад",
+            "кролик",
+            "курочк",
+            "овеч",
+            "козочк",
+            "поросен"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.OBOBSHCH_KLASSIF"
+          ]
+        },
+        {
+          "name": "Эксперименты",
+          "keywords": [
+            "эксперимент",
+            "опыт",
+            "исследова"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Природные явления",
+          "keywords": [
+            "осен",
+            "зим",
+            "весн",
+            "дождь",
+            "снег",
+            "ветер",
+            "облак",
+            "снегопад",
+            "метел",
+            "ледян"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Математика и счёт",
+          "keywords": [
+            "счет",
+            "счёт",
+            "число",
+            "количеств",
+            "математ",
+            "фигур"
+          ],
+          "K": [],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Цвет и форма",
+          "keywords": [
+            "цвет",
+            "форм",
+            "круг",
+            "квадрат"
+          ],
+          "K": [],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Тело человека",
+          "keywords": [
+            "тело",
+            "части тел",
+            "орган"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Растения",
+          "keywords": [
+            "растен",
+            "дерев",
+            "цветок"
+          ],
+          "K": [
+            "K.POCH34.PRIRODA"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Приключения и игры",
+          "keywords": [
+            "приключ",
+            "путешеств",
+            "квест",
+            "детектив"
+          ],
+          "K": [],
+          "S": [
+            "S.POCH34.NABLYUDENIE"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        }
+      ]
+    },
+    "NEYRO46": {
+      "course_name": "Нейрогимнастика 4-6",
+      "default": {
+        "K": [
+          "K.NEYRO46.MEZHPOLUSH"
+        ],
+        "S": [
+          "S.NEYRO46.KOORD"
+        ],
+        "C": [
+          "C.DISCIPLINA"
+        ],
+        "M": [
+          "M.VNIMANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство с телом",
+          "keywords": [
+            "знакомств",
+            "тел",
+            "строени"
+          ],
+          "K": [
+            "K.NEYRO46.STR_TELA",
+            "K.NEYRO46.SENSORY"
+          ],
+          "S": [
+            "S.NEYRO46.KOORD"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Координация",
+          "keywords": [
+            "межполушарн",
+            "координац",
+            "двигательн",
+            "двусторонн",
+            "билатер"
+          ],
+          "K": [
+            "K.NEYRO46.MEZHPOLUSH"
+          ],
+          "S": [
+            "S.NEYRO46.KOORD"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Мелкая моторика",
+          "keywords": [
+            "мелк",
+            "пальч",
+            "мотор",
+            "руки",
+            "ладошк",
+            "ловки",
+            "графомот"
+          ],
+          "K": [
+            "K.NEYRO46.SENSORY"
+          ],
+          "S": [
+            "S.NEYRO46.KOORD"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Дыхание и расслабление",
+          "keywords": [
+            "дыхан",
+            "расслабл",
+            "релакс"
+          ],
+          "K": [
+            "K.NEYRO46.RELAX"
+          ],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Игровой формат",
+          "keywords": [
+            "игр",
+            "путешеств",
+            "приключен",
+            "квест",
+            "зверят",
+            "детектив",
+            "космич",
+            "волшебн",
+            "сказочн",
+            "праздни",
+            "цирк",
+            "супергеро",
+            "пиратск"
+          ],
+          "K": [
+            "K.NEYRO46.MEZHPOLUSH"
+          ],
+          "S": [
+            "S.NEYRO46.KOM_IGR"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Сенсорика",
+          "keywords": [
+            "сенсор",
+            "тактильн",
+            "зрительн",
+            "слухов",
+            "проприоцеп",
+            "вестибуляр"
+          ],
+          "K": [
+            "K.NEYRO46.SENSORY"
+          ],
+          "S": [
+            "S.NEYRO46.KOORD"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Балансирование",
+          "keywords": [
+            "баланс",
+            "равновес",
+            "устойч"
+          ],
+          "K": [
+            "K.NEYRO46.STR_TELA"
+          ],
+          "S": [
+            "S.NEYRO46.BALANS",
+            "S.NEYRO46.KOORD"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Командные игры",
+          "keywords": [
+            "команд",
+            "парн",
+            "групп",
+            "дружб"
+          ],
+          "K": [
+            "K.NEYRO46.MEZHPOLUSH"
+          ],
+          "S": [
+            "S.NEYRO46.KOM_IGR"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Саморегуляция",
+          "keywords": [
+            "саморегул",
+            "произвольн",
+            "контрол"
+          ],
+          "K": [
+            "K.NEYRO46.ENERGY"
+          ],
+          "S": [
+            "S.NEYRO46.SAMOREG"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Бытовые темы",
+          "keywords": [
+            "стройк",
+            "домик",
+            "медвед",
+            "короле",
+            "будущ"
+          ],
+          "K": [
+            "K.NEYRO46.SENSORY"
+          ],
+          "S": [
+            "S.NEYRO46.KOORD",
+            "S.NEYRO46.KOM_IGR"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        }
+      ]
+    },
+    "AZBUKA46": {
+      "course_name": "Живая азбука 4-6",
+      "default": {
+        "K": [
+          "K.AZB.BUKVY"
+        ],
+        "S": [
+          "S.AZB.PREDLOZH"
+        ],
+        "C": [
+          "C.INTERES_CHTENIE"
+        ],
+        "M": [
+          "M.AZB.FONEMATIC"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Звуки речи",
+          "keywords": [
+            "звук",
+            "речев",
+            "неречев",
+            "произнош",
+            "дифферен",
+            "фонем"
+          ],
+          "K": [
+            "K.AZB.ZVUKI"
+          ],
+          "S": [
+            "S.AZB.ARTIKULYACIYA"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Знакомство с буквой",
+          "keywords": [
+            "знакомств",
+            "буква",
+            "согласн",
+            "гласн"
+          ],
+          "K": [
+            "K.AZB.BUKVY"
+          ],
+          "S": [
+            "S.AZB.MOTORIKA",
+            "S.AZB.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Слоги и чтение",
+          "keywords": [
+            "слог",
+            "чтен",
+            "читать"
+          ],
+          "K": [
+            "K.AZB.ZVUKI",
+            "K.AZB.BUKVY"
+          ],
+          "S": [
+            "S.AZB.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Слова",
+          "keywords": [
+            "слов",
+            "словарн",
+            "словосоч",
+            "антоним",
+            "синоним",
+            "анаграмм"
+          ],
+          "K": [
+            "K.AZB.GRAMMATIKA",
+            "K.AZB.STRUKTURA"
+          ],
+          "S": [
+            "S.AZB.PREDLOZH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Предложения",
+          "keywords": [
+            "предложен",
+            "фраз",
+            "составлен",
+            "вопрос"
+          ],
+          "K": [
+            "K.AZB.STRUKTURA"
+          ],
+          "S": [
+            "S.AZB.PREDLOZH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Рассказ и пересказ",
+          "keywords": [
+            "рассказ",
+            "пересказ",
+            "серии картинок"
+          ],
+          "K": [
+            "K.AZB.STRUKTURA"
+          ],
+          "S": [
+            "S.AZB.PERESKAZ"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Литература",
+          "keywords": [
+            "литератур",
+            "произведен",
+            "детск",
+            "сказк"
+          ],
+          "K": [
+            "K.AZB.LIT"
+          ],
+          "S": [
+            "S.AZB.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Предлоги",
+          "keywords": [
+            "предлог"
+          ],
+          "K": [
+            "K.AZB.GRAMMATIKA"
+          ],
+          "S": [
+            "S.AZB.PREDLOZH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Слухоречевая память",
+          "keywords": [
+            "слухоречев",
+            "память",
+            "запомн"
+          ],
+          "K": [
+            "K.AZB.GRAMMATIKA"
+          ],
+          "S": [
+            "S.AZB.PERESKAZ"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        }
+      ]
+    },
+    "HVZ46": {
+      "course_name": "Хочу всё знать (ХВЗ) 4-6",
+      "default": {
+        "K": [
+          "K.HVZ.OKR_MIR"
+        ],
+        "S": [
+          "S.HVZ.CHTENIE"
+        ],
+        "C": [
+          "C.LYUBOZNATELNOST"
+        ],
+        "M": [
+          "M.VNIMANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Природа и сезоны",
+          "keywords": [
+            "осен",
+            "зим",
+            "весн",
+            "природ",
+            "погод",
+            "времен года",
+            "признак",
+            "снегопад"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Овощи и фрукты",
+          "keywords": [
+            "овощ",
+            "фрукт",
+            "ягод",
+            "продукт",
+            "грибы",
+            "урожай"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Животные",
+          "keywords": [
+            "животн",
+            "дикие",
+            "домашн",
+            "детёныш",
+            "детеныш",
+            "птиц",
+            "зверь",
+            "рыб",
+            "насеком",
+            "зимующ",
+            "перелетн"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Семья и человек",
+          "keywords": [
+            "семь",
+            "мам",
+            "пап",
+            "тело",
+            "части тел",
+            "человек"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Математика",
+          "keywords": [
+            "математ",
+            "счёт",
+            "счет",
+            "цифр",
+            "число",
+            "соседи числ",
+            "предлог места"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Логика",
+          "keywords": [
+            "логик",
+            "логичес",
+            "мышлени",
+            "умозакл",
+            "логическ задач"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Грамота и речь",
+          "keywords": [
+            "буква",
+            "звук",
+            "гласн",
+            "согласн",
+            "фонематич"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Эксперименты",
+          "keywords": [
+            "эксперимент",
+            "опыт",
+            "исследова"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Творчество",
+          "keywords": [
+            "творч",
+            "поделк",
+            "рисов",
+            "аппликац"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Беларусь",
+          "keywords": [
+            "белорус",
+            "беларус"
+          ],
+          "K": [
+            "K.HVZ.OKR_MIR"
+          ],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Время",
+          "keywords": [
+            "дни недел",
+            "часть сут",
+            "час",
+            "утр",
+            "вечер"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        }
+      ]
+    },
+    "PESK46": {
+      "course_name": "Пескография 4-6",
+      "default": {
+        "K": [
+          "K.PESK.TEHN"
+        ],
+        "S": [
+          "S.PESK.PESOK"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.KREATIV_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство",
+          "keywords": [
+            "здравствуй",
+            "песочек",
+            "адаптац"
+          ],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Эмоции",
+          "keywords": [
+            "эмоц",
+            "чувств",
+            "настроени",
+            "злость",
+            "страх",
+            "радость",
+            "благодарн",
+            "позитив"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Природа",
+          "keywords": [
+            "море",
+            "лес",
+            "природ",
+            "цветочн",
+            "осен",
+            "зимн",
+            "космич"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Сюжет и сказка",
+          "keywords": [
+            "сюжет",
+            "сказк",
+            "волшебн",
+            "путешеств",
+            "приключ"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Творческие техники",
+          "keywords": [
+            "техник",
+            "насыпан",
+            "отпечат",
+            "рисован пальц",
+            "анимац"
+          ],
+          "K": [
+            "K.PESK.TEHN"
+          ],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Праздники",
+          "keywords": [
+            "пасх",
+            "мам",
+            "подарок",
+            "праздник"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Парная работа",
+          "keywords": [
+            "пар",
+            "сотруд",
+            "взаимодейств",
+            "общий"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "ART68": {
+      "course_name": "Арт-студия 6-8",
+      "default": {
+        "K": [
+          "K.ART68.GUASH"
+        ],
+        "S": [
+          "S.ART68.ZHIV_GUASH"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.KREATIV_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Гуашь",
+          "keywords": [
+            "гуашь",
+            "гуашев"
+          ],
+          "K": [],
+          "S": [
+            "S.ART68.ZHIV_GUASH"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Акварель",
+          "keywords": [
+            "акварель"
+          ],
+          "K": [
+            "K.ART68.AKVAREL"
+          ],
+          "S": [
+            "S.ART68.ZHIV_AKV"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Графика",
+          "keywords": [
+            "графика",
+            "карандаш",
+            "фломастер"
+          ],
+          "K": [
+            "K.ART68.GRAFIKA"
+          ],
+          "S": [
+            "S.ART68.GRAFIKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Натюрморт",
+          "keywords": [
+            "натюрморт"
+          ],
+          "K": [
+            "K.ART68.KOMPOZ"
+          ],
+          "S": [
+            "S.ART68.ZHIV_GUASH"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Пейзаж",
+          "keywords": [
+            "пейзаж"
+          ],
+          "K": [
+            "K.ART68.KOMPOZ"
+          ],
+          "S": [
+            "S.ART68.ZHIV_GUASH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Портрет",
+          "keywords": [
+            "портрет",
+            "ракурс"
+          ],
+          "K": [
+            "K.ART68.KOMPOZ"
+          ],
+          "S": [
+            "S.ART68.GRAFIKA"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Композиция",
+          "keywords": [
+            "композиц",
+            "многофигурн"
+          ],
+          "K": [
+            "K.ART68.KOMPOZ"
+          ],
+          "S": [
+            "S.ART68.ZHIV_GUASH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Цвет",
+          "keywords": [
+            "цвет",
+            "колорит",
+            "градиент",
+            "смешиван",
+            "консистенц"
+          ],
+          "K": [
+            "K.ART68.SVOISTVA"
+          ],
+          "S": [
+            "S.ART68.SMESHIV"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Перспектива",
+          "keywords": [
+            "перспектив"
+          ],
+          "K": [
+            "K.ART68.PERSPEKT"
+          ],
+          "S": [
+            "S.ART68.GRAFIKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Природные материалы",
+          "keywords": [
+            "природн материал",
+            "листья",
+            "плод"
+          ],
+          "K": [
+            "K.ART68.SVOISTVA"
+          ],
+          "S": [
+            "S.ART68.PRIROD_MAT"
+          ],
+          "C": [],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Стиль и копия",
+          "keywords": [
+            "стиль",
+            "копи",
+            "шедевр",
+            "ван гог",
+            "манер"
+          ],
+          "K": [],
+          "S": [
+            "S.ART68.ZHIV_GUASH"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Презентация",
+          "keywords": [
+            "презент",
+            "выставк",
+            "вернисаж"
+          ],
+          "K": [
+            "K.ART68.KOMPOZ"
+          ],
+          "S": [
+            "S.ART68.PREZENTACIYA"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "KALIGR910": {
+      "course_name": "Каллиграфия 9-10",
+      "default": {
+        "K": [
+          "K.KALIGR.IST"
+        ],
+        "S": [
+          "S.KALIGR.PROPISN"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.VNIMANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство с каллиграфией",
+          "keywords": [
+            "знакомств с каллиграф",
+            "упражн",
+            "кист"
+          ],
+          "K": [
+            "K.KALIGR.INSTR"
+          ],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Элементы и буквы",
+          "keywords": [
+            "элемент",
+            "буква",
+            "крючок",
+            "эллемент",
+            "основ написа"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Композиция и узор",
+          "keywords": [
+            "композиц",
+            "узор",
+            "орнамент",
+            "отражен",
+            "симметри"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Инструмент",
+          "keywords": [
+            "перо",
+            "чернил",
+            "тушь",
+            "инструм",
+            "острое перо"
+          ],
+          "K": [
+            "K.KALIGR.INSTR"
+          ],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Внимание",
+          "keywords": [
+            "внимани",
+            "переключен",
+            "устойчивост",
+            "корректурн"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Пространственные представления",
+          "keywords": [
+            "пространств",
+            "кинестетич",
+            "плоскост",
+            "клеточк",
+            "отражен"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Творческая работа",
+          "keywords": [
+            "творческ",
+            "жираф",
+            "крокодил",
+            "морск конек",
+            "кит",
+            "дракон"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Праздники",
+          "keywords": [
+            "день матери",
+            "новогодн",
+            "пасх",
+            "8 март",
+            "рождеств"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Финальная работа",
+          "keywords": [
+            "финальн",
+            "итогов"
+          ],
+          "K": [],
+          "S": [
+            "S.KALIGR.PROPISN"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        }
+      ]
+    },
+    "LOGIKA910": {
+      "course_name": "Мир логики 9-10",
+      "default": {
+        "K": [
+          "K.LOGIKA.ZAKON"
+        ],
+        "S": [
+          "S.LOGIKA.RESH_LOGIC"
+        ],
+        "C": [
+          "C.NASTOICHIVOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Натуральные числа",
+          "keywords": [
+            "натуральн",
+            "целые числ",
+            "простые",
+            "составн",
+            "римск"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Сложение и вычитание",
+          "keywords": [
+            "сложен",
+            "вычитан",
+            "сумм",
+            "разност"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Умножение и деление",
+          "keywords": [
+            "умножен",
+            "делен"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Дроби",
+          "keywords": [
+            "дроб",
+            "смешанн числ",
+            "знаменат",
+            "числит"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Уравнения",
+          "keywords": [
+            "уравнен",
+            "равенств",
+            "неравенств"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Проценты и пропорции",
+          "keywords": [
+            "процент",
+            "пропорц",
+            "отношен"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Логика и задачи",
+          "keywords": [
+            "задач",
+            "логик",
+            "ребус",
+            "головолом"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Геометрия",
+          "keywords": [
+            "геометр",
+            "фигур",
+            "окружн",
+            "треуг",
+            "квадрат"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Делимость",
+          "keywords": [
+            "нод",
+            "нок",
+            "делимост",
+            "делитель",
+            "кратн"
+          ],
+          "K": [],
+          "S": [
+            "S.LOGIKA.RESH_LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        }
+      ]
+    },
+    "FIN910": {
+      "course_name": "Финансовая грамотность 9-10",
+      "default": {
+        "K": [
+          "K.FIN910.EVOL"
+        ],
+        "S": [
+          "S.FIN910.RASHODY"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.KRITICH_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Деньги и блага",
+          "keywords": [
+            "деньг",
+            "благ",
+            "потребност",
+            "купюр"
+          ],
+          "K": [
+            "K.FIN910.KARMAN"
+          ],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Спрос-предложение",
+          "keywords": [
+            "спрос",
+            "предложен",
+            "рынок",
+            "безработ",
+            "конкурен"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Бизнес и стартап",
+          "keywords": [
+            "бизнес",
+            "предпринимат",
+            "стартап",
+            "мышлени лидер"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.PREZENT"
+          ],
+          "C": [
+            "C.INICIATIVNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Маркетинг и реклама",
+          "keywords": [
+            "маркетинг",
+            "реклам",
+            "упаковк",
+            "продаж"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.PREZENT"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Банк и кредиты",
+          "keywords": [
+            "банк",
+            "депозит",
+            "вклад",
+            "кредит"
+          ],
+          "K": [
+            "K.FIN910.BANK"
+          ],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Страхование",
+          "keywords": [
+            "страхован",
+            "страховк"
+          ],
+          "K": [
+            "K.FIN910.BANK"
+          ],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Инвестиции",
+          "keywords": [
+            "инвестиц",
+            "фондов",
+            "форекс",
+            "портфел",
+            "криптовалют",
+            "блокчейн"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Бюджет и цели",
+          "keywords": [
+            "бюджет",
+            "постановк цел"
+          ],
+          "K": [
+            "K.FIN910.BYUDZHET"
+          ],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Налоги",
+          "keywords": [
+            "налог",
+            "пенси"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Безопасность",
+          "keywords": [
+            "безопасн",
+            "мошенник",
+            "защит прав"
+          ],
+          "K": [
+            "K.FIN910.BEZOP"
+          ],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Беларусь и государство",
+          "keywords": [
+            "беларус",
+            "белорус",
+            "республик",
+            "граждан",
+            "государств"
+          ],
+          "K": [],
+          "S": [
+            "S.FIN910.RASHODY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        }
+      ]
+    },
+    "ENG68": {
+      "course_name": "Познавательный английский 6-8",
+      "default": {
+        "K": [
+          "K.ENG68.SLOVAR"
+        ],
+        "S": [
+          "S.ENG68.DIALOG"
+        ],
+        "C": [
+          "C.INTERES_KULTURY"
+        ],
+        "M": [
+          "M.PAMIAT"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Алфавит",
+          "keywords": [
+            "алфавит",
+            "abc"
+          ],
+          "K": [
+            "K.ENG68.ALFAVIT"
+          ],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Чтение",
+          "keywords": [
+            "чтение",
+            "буква",
+            "буквосочетан"
+          ],
+          "K": [
+            "K.ENG68.ALFAVIT"
+          ],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Лексика",
+          "keywords": [
+            "лексическ",
+            "лексик",
+            "тематическ",
+            "словарн"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Грамматика",
+          "keywords": [
+            "граммат",
+            "глагол",
+            "местоимен",
+            "предлог",
+            "падеж",
+            "указательн"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Диалог",
+          "keywords": [
+            "диалог",
+            "говорен",
+            "диалогич"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.DIALOG"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Аудирование",
+          "keywords": [
+            "аудиров",
+            "восприят на слух"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Произношение",
+          "keywords": [
+            "произносит",
+            "произношен"
+          ],
+          "K": [
+            "K.ENG68.ALFAVIT"
+          ],
+          "S": [
+            "S.ENG68.DIALOG"
+          ],
+          "C": [],
+          "M": [
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Темы лексические",
+          "keywords": [
+            "семья",
+            "друг",
+            "школьн",
+            "еда",
+            "дом",
+            "мебель",
+            "одежд",
+            "спорт",
+            "животн",
+            "игрушк",
+            "цифр",
+            "цвет"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.DIALOG"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Числа",
+          "keywords": [
+            "числительн",
+            "счёт",
+            "счет"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Контроль",
+          "keywords": [
+            "контрол",
+            "повторен",
+            "обобщен",
+            "активиз"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.CHTENIE"
+          ],
+          "C": [],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Проект",
+          "keywords": [
+            "проект"
+          ],
+          "K": [],
+          "S": [
+            "S.ENG68.DIALOG"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "7N910": {
+      "course_name": "7 навыков уверенных детей 9-10",
+      "default": {
+        "K": [
+          "K.7N910.KOMMUN"
+        ],
+        "S": [
+          "S.7N.AKTIV_SLUSH"
+        ],
+        "C": [
+          "C.UVERENNOST"
+        ],
+        "M": [
+          "M.KRITICH_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Дружба",
+          "keywords": [
+            "друж",
+            "друг",
+            "товарищ"
+          ],
+          "K": [
+            "K.7N910.KOMMUN"
+          ],
+          "S": [
+            "S.7N.AKTIV_SLUSH"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Команда",
+          "keywords": [
+            "команд",
+            "кооперац",
+            "групп",
+            "совмест",
+            "класс"
+          ],
+          "K": [
+            "K.7N910.KOMMUN"
+          ],
+          "S": [
+            "S.7N910.KOMANDA"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Различия",
+          "keywords": [
+            "различ",
+            "индивидуал",
+            "уважен"
+          ],
+          "K": [
+            "K.7N910.SAMOOCENKA"
+          ],
+          "S": [
+            "S.7N910.SAMOPREZ"
+          ],
+          "C": [
+            "C.UVAZHENIE"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Уверенность",
+          "keywords": [
+            "уверен",
+            "самооценк",
+            "выступ",
+            "публич"
+          ],
+          "K": [
+            "K.7N910.SAMOOCENKA"
+          ],
+          "S": [
+            "S.7N.VYSTUPLENIE"
+          ],
+          "C": [
+            "C.UVERENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Эмоции",
+          "keywords": [
+            "эмоц",
+            "чувств",
+            "настроени"
+          ],
+          "K": [
+            "K.7N910.EMOCII"
+          ],
+          "S": [
+            "S.7N910.YA_SOOBSHCH"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Конфликт",
+          "keywords": [
+            "конфликт",
+            "спор",
+            "ссор",
+            "разреш",
+            "мирим"
+          ],
+          "K": [
+            "K.7N910.KONFLIKT"
+          ],
+          "S": [
+            "S.7N910.RAZRESH_KONFL"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Границы",
+          "keywords": [
+            "границ",
+            "личн"
+          ],
+          "K": [
+            "K.7N910.GRANICY"
+          ],
+          "S": [
+            "S.7N910.YA_SOOBSHCH"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Цели",
+          "keywords": [
+            "цел",
+            "план",
+            "задач",
+            "выбор"
+          ],
+          "K": [
+            "K.7N910.CELI"
+          ],
+          "S": [
+            "S.7N910.PLAN_CELEY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Ответственность",
+          "keywords": [
+            "ответствен",
+            "поступ",
+            "правд"
+          ],
+          "K": [
+            "K.7N910.KOMMUN"
+          ],
+          "S": [
+            "S.7N910.YA_SOOBSHCH"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Эмпатия",
+          "keywords": [
+            "эмпат",
+            "сочувств",
+            "поддержк"
+          ],
+          "K": [
+            "K.7N910.EMOCII"
+          ],
+          "S": [
+            "S.7N.AKTIV_SLUSH"
+          ],
+          "C": [
+            "C.EMPATIYA"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Активное слушание",
+          "keywords": [
+            "активн слушан",
+            "общени",
+            "диалог",
+            "вербальн",
+            "невербальн"
+          ],
+          "K": [
+            "K.7N910.KOMMUN"
+          ],
+          "S": [
+            "S.7N.AKTIV_SLUSH"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Просьба и помощь",
+          "keywords": [
+            "просить",
+            "просьб",
+            "помощ"
+          ],
+          "K": [
+            "K.7N910.KOMMUN"
+          ],
+          "S": [
+            "S.7N910.YA_SOOBSHCH"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        }
+      ]
+    },
+    "SCRATCH67": {
+      "course_name": "Создание игр в Scratch 6-7",
+      "default": {
+        "K": [
+          "K.SCRATCH.INTERFACE"
+        ],
+        "S": [
+          "S.SCRATCH.BLOKI"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Интерфейс",
+          "keywords": [
+            "интерфейс",
+            "знакомств",
+            "введение",
+            "вводн"
+          ],
+          "K": [
+            "K.SCRATCH.INTERFACE"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Алгоритмы и циклы",
+          "keywords": [
+            "цикл",
+            "повтор",
+            "алгоритм"
+          ],
+          "K": [
+            "K.SCRATCH.ALGORITM"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Условия",
+          "keywords": [
+            "услов",
+            "если",
+            "ветвлен"
+          ],
+          "K": [
+            "K.SCRATCH.ALGORITM"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Спрайты",
+          "keywords": [
+            "спрайт",
+            "персонаж",
+            "костюм",
+            "герой"
+          ],
+          "K": [
+            "K.SCRATCH.SPRITE"
+          ],
+          "S": [
+            "S.SCRATCH.SPRITE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Переменные",
+          "keywords": [
+            "переменн",
+            "список",
+            "строки",
+            "значен"
+          ],
+          "K": [
+            "K.SCRATCH.VAR_LIST"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Звуки",
+          "keywords": [
+            "звук",
+            "музык"
+          ],
+          "K": [
+            "K.SCRATCH.ZVUK"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        },
+        {
+          "name": "Анимация",
+          "keywords": [
+            "анимац",
+            "движен"
+          ],
+          "K": [
+            "K.SCRATCH.SPRITE"
+          ],
+          "S": [
+            "S.SCRATCH.ANIM"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Игры",
+          "keywords": [
+            "игр",
+            "шутер",
+            "танчик",
+            "защит",
+            "виктор",
+            "крестик",
+            "магазин",
+            "соревнован",
+            "самолет"
+          ],
+          "K": [
+            "K.SCRATCH.MEH"
+          ],
+          "S": [
+            "S.SCRATCH.IGRY"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "События",
+          "keywords": [
+            "сообщен",
+            "событи",
+            "трансляц"
+          ],
+          "K": [
+            "K.SCRATCH.KLONY"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Клоны",
+          "keywords": [
+            "клон",
+            "плон"
+          ],
+          "K": [
+            "K.SCRATCH.KLONY"
+          ],
+          "S": [
+            "S.SCRATCH.SPRITE"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Координаты",
+          "keywords": [
+            "координ"
+          ],
+          "K": [
+            "K.SCRATCH.ALGORITM"
+          ],
+          "S": [
+            "S.SCRATCH.SPRITE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Физика",
+          "keywords": [
+            "физик",
+            "гравитац",
+            "сенсор",
+            "столкновен"
+          ],
+          "K": [
+            "K.SCRATCH.MEH"
+          ],
+          "S": [
+            "S.SCRATCH.IGRY"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Функции",
+          "keywords": [
+            "функц"
+          ],
+          "K": [
+            "K.SCRATCH.ALGORITM"
+          ],
+          "S": [
+            "S.SCRATCH.BLOKI"
+          ],
+          "C": [],
+          "M": [
+            "M.DEKOMPOZICIYA"
+          ]
+        },
+        {
+          "name": "Проект",
+          "keywords": [
+            "проект",
+            "разработк",
+            "модул"
+          ],
+          "K": [
+            "K.SCRATCH.MEH"
+          ],
+          "S": [
+            "S.SCRATCH.IGRY"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Демонстрация",
+          "keywords": [
+            "демонстр",
+            "итог",
+            "отбор",
+            "защит"
+          ],
+          "K": [
+            "K.SCRATCH.MEH"
+          ],
+          "S": [
+            "S.SCRATCH.PUBLIK"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "3D",
+          "keywords": [
+            "3d",
+            "перспектив",
+            "ландшафт"
+          ],
+          "K": [
+            "K.SCRATCH.SPRITE"
+          ],
+          "S": [
+            "S.SCRATCH.IGRY"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Инвентарь",
+          "keywords": [
+            "инвентар"
+          ],
+          "K": [
+            "K.SCRATCH.VAR_LIST"
+          ],
+          "S": [
+            "S.SCRATCH.IGRY"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        }
+      ]
+    },
+    "ROBO68": {
+      "course_name": "Робототехника 6-8",
+      "default": {
+        "K": [
+          "K.ROBO68.WEDO"
+        ],
+        "S": [
+          "S.ROBO68.SBORKA"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Зубчатая передача",
+          "keywords": [
+            "зубчат",
+            "шестер",
+            "понижающ",
+            "повышающ"
+          ],
+          "K": [
+            "K.ROBO68.PEREDACHI"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Ременная передача",
+          "keywords": [
+            "ременн"
+          ],
+          "K": [
+            "K.ROBO68.PEREDACHI"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Червячная передача",
+          "keywords": [
+            "червяч"
+          ],
+          "K": [
+            "K.ROBO68.PEREDACHI"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Кулачковая передача",
+          "keywords": [
+            "кулачк"
+          ],
+          "K": [
+            "K.ROBO68.PEREDACHI"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Сенсоры",
+          "keywords": [
+            "сенсор",
+            "датчик"
+          ],
+          "K": [
+            "K.ROBO68.SENSORY"
+          ],
+          "S": [
+            "S.ROBO68.SENSORY"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Сборка",
+          "keywords": [
+            "строительств",
+            "строим",
+            "сборк",
+            "модель робот"
+          ],
+          "K": [
+            "K.ROBO68.WEDO"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Программирование",
+          "keywords": [
+            "программ",
+            "алгоритм",
+            "команд"
+          ],
+          "K": [
+            "K.ROBO68.ALGORITM"
+          ],
+          "S": [
+            "S.ROBO68.VIZ_PROG"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Презентация",
+          "keywords": [
+            "презент",
+            "демонстр"
+          ],
+          "K": [
+            "K.ROBO68.INZH"
+          ],
+          "S": [
+            "S.ROBO68.PREZENT"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Творчество",
+          "keywords": [
+            "творчес",
+            "свой робот",
+            "модификац"
+          ],
+          "K": [
+            "K.ROBO68.INZH"
+          ],
+          "S": [
+            "S.ROBO68.MODIF"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Праздничные",
+          "keywords": [
+            "новогодн",
+            "санта",
+            "снеговик",
+            "елк"
+          ],
+          "K": [
+            "K.ROBO68.WEDO"
+          ],
+          "S": [
+            "S.ROBO68.SBORKA"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "KMS1112": {
+      "course_name": "Клуб математической стратегии (КМС) 11-12",
+      "default": {
+        "K": [
+          "K.KMS.SISTEMY"
+        ],
+        "S": [
+          "S.KMS.NESTAND"
+        ],
+        "C": [
+          "C.NASTOICHIVOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Степень",
+          "keywords": [
+            "степен",
+            "показател"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Геометрия",
+          "keywords": [
+            "прямая",
+            "луч",
+            "отрезок",
+            "ломан",
+            "угол",
+            "круг",
+            "окружн",
+            "треуг",
+            "квадрат",
+            "параллел",
+            "геометр",
+            "медиан",
+            "биссектр",
+            "высот"
+          ],
+          "K": [
+            "K.KMS.FIGURY"
+          ],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.PROSTR_VOOBR"
+          ]
+        },
+        {
+          "name": "Многочлены",
+          "keywords": [
+            "многочлен",
+            "одночлен",
+            "тождеств",
+            "сокращ"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Уравнения",
+          "keywords": [
+            "уравнени",
+            "неравенств"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Пропорции",
+          "keywords": [
+            "пропорц",
+            "процент",
+            "отношен"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Функции",
+          "keywords": [
+            "функц",
+            "график"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Олимпиады",
+          "keywords": [
+            "олимпиад",
+            "нестандарт",
+            "стратеги"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Признаки",
+          "keywords": [
+            "признак",
+            "равенств",
+            "подоб"
+          ],
+          "K": [
+            "K.KMS.FIGURY"
+          ],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Обобщение",
+          "keywords": [
+            "обобщен",
+            "систематизац"
+          ],
+          "K": [],
+          "S": [
+            "S.KMS.NESTAND"
+          ],
+          "C": [],
+          "M": [
+            "M.OBOBSHCH_KLASSIF"
+          ]
+        }
+      ]
+    },
+    "GLINA813": {
+      "course_name": "Лепка из глины 8-13",
+      "default": {
+        "K": [
+          "K.GLINA813.VIDY"
+        ],
+        "S": [
+          "S.GLINA813.PLAST"
+        ],
+        "C": [
+          "C.USIDCHIVOST"
+        ],
+        "M": [
+          "M.PLANIROVANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Вводное",
+          "keywords": [
+            "вводное",
+            "оборудован",
+            "инструмент",
+            "материал",
+            "свойств"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Лепка из пласта",
+          "keywords": [
+            "пласт",
+            "эскиз"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Изделия",
+          "keywords": [
+            "шкатулк",
+            "тарелк",
+            "подсвечник",
+            "кашпо"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Декорирование",
+          "keywords": [
+            "тонировк",
+            "глазуров",
+            "декор",
+            "роспис"
+          ],
+          "K": [],
+          "S": [
+            "S.GLINA813.DEKOR"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Композиция",
+          "keywords": [
+            "композиц",
+            "сюжет"
+          ],
+          "K": [],
+          "S": [
+            "S.GLINA813.KOMPOZ"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Праздничные",
+          "keywords": [
+            "новогодн",
+            "игрушк",
+            "сувенир"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "История",
+          "keywords": [
+            "истори",
+            "мотив",
+            "традиц"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "POLIM1113": {
+      "course_name": "Лепка из полимерной глины 11-13",
+      "default": {
+        "K": [
+          "K.POLIM.SVOISTVA"
+        ],
+        "S": [
+          "S.POLIM.MINI"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.PLANIROVANIE"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Вводное",
+          "keywords": [
+            "вводное",
+            "оборудован",
+            "инструмент",
+            "материал"
+          ],
+          "K": [],
+          "S": [
+            "S.POLIM.MINI"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Техники",
+          "keywords": [
+            "миллефиори",
+            "соляная",
+            "техник"
+          ],
+          "K": [
+            "K.POLIM.TEHN_ZAPEK"
+          ],
+          "S": [
+            "S.POLIM.MINI"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Украшения",
+          "keywords": [
+            "украш",
+            "брошк",
+            "серьг",
+            "кулон",
+            "бус"
+          ],
+          "K": [],
+          "S": [
+            "S.POLIM.UKR"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Фигурки",
+          "keywords": [
+            "фигурк",
+            "миниатюр",
+            "персонаж"
+          ],
+          "K": [],
+          "S": [
+            "S.POLIM.MINI"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Декорирование",
+          "keywords": [
+            "декорир",
+            "декор",
+            "тонировк"
+          ],
+          "K": [],
+          "S": [
+            "S.POLIM.UKR"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Запекание",
+          "keywords": [
+            "запекан",
+            "обжиг"
+          ],
+          "K": [
+            "K.POLIM.TEHN_ZAPEK"
+          ],
+          "S": [
+            "S.POLIM.MINI"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Основы лепки",
+          "keywords": [
+            "основ",
+            "приёмы лепк",
+            "простые фигур"
+          ],
+          "K": [],
+          "S": [
+            "S.POLIM.MINI"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        }
+      ]
+    },
+    "RIS1113": {
+      "course_name": "Рисование 11-13",
+      "default": {
+        "K": [
+          "K.RIS.AKV"
+        ],
+        "S": [
+          "S.RIS.ZHIV_AKV"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.KREATIV_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Карандаш",
+          "keywords": [
+            "карандаш",
+            "штрих",
+            "линер",
+            "графика",
+            "тонировк",
+            "растушевк",
+            "пастель"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Акварель",
+          "keywords": [
+            "акварель"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Гуашь",
+          "keywords": [
+            "гуашь",
+            "акрил"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Натюрморт",
+          "keywords": [
+            "натюрморт",
+            "букет",
+            "цветы"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Пейзаж",
+          "keywords": [
+            "пейзаж"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Портрет",
+          "keywords": [
+            "портрет"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Композиция",
+          "keywords": [
+            "композиц",
+            "перспектив",
+            "построен"
+          ],
+          "K": [
+            "K.RIS.KOMPOZ"
+          ],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Цвет",
+          "keywords": [
+            "цвет",
+            "колорит",
+            "смешиван",
+            "градиент"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Скетчинг",
+          "keywords": [
+            "скетч",
+            "зарисов",
+            "быстры"
+          ],
+          "K": [
+            "K.RIS.KOMPOZ"
+          ],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Особые техники",
+          "keywords": [
+            "монотипи",
+            "пуантилизм",
+            "трафарет"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.KREATIV_MYSHL"
+          ]
+        }
+      ]
+    },
+    "VZROSL1113": {
+      "course_name": "Взросление 11-13",
+      "default": {
+        "K": [
+          "K.VZR.FIZIOLOG"
+        ],
+        "S": [
+          "S.VZR.GIGIENA"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.KRITICH_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство",
+          "keywords": [
+            "знаком",
+            "самоценность"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.UVERENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Тело",
+          "keywords": [
+            "тело",
+            "анатоми",
+            "физиолог",
+            "строени",
+            "репродуктив"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Гигиена",
+          "keywords": [
+            "гигиен",
+            "ухоженност",
+            "красот",
+            "стиль"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Менструация",
+          "keywords": [
+            "менструац",
+            "цикл"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Пубертат",
+          "keywords": [
+            "пуберт",
+            "переход возраст"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Эмоции",
+          "keywords": [
+            "эмоц",
+            "эмоциональн"
+          ],
+          "K": [
+            "K.VZR.EMOCII"
+          ],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Личные границы",
+          "keywords": [
+            "границ",
+            "кибербезопасн",
+            "безопасн"
+          ],
+          "K": [
+            "K.VZR.GRANICY"
+          ],
+          "S": [],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Отношения",
+          "keywords": [
+            "отношен",
+            "дружб",
+            "близост",
+            "интим"
+          ],
+          "K": [
+            "K.VZR.OTNOSH"
+          ],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Гинеколог",
+          "keywords": [
+            "гинеколог",
+            "врач",
+            "медицин"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Беременность",
+          "keywords": [
+            "беременн"
+          ],
+          "K": [],
+          "S": [
+            "S.VZR.GIGIENA"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        }
+      ]
+    },
+    "MINECRAFT911": {
+      "course_name": "Minecraft: введение в ИИ 9-11",
+      "default": {
+        "K": [
+          "K.MC.ALGORITMY"
+        ],
+        "S": [
+          "S.MC.MAKECODE"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.ALGORITM_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "MakeCode",
+          "keywords": [
+            "makecode",
+            "алгоритм",
+            "управлен"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Циклы",
+          "keywords": [
+            "цикл",
+            "повтор",
+            "вложен"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "События",
+          "keywords": [
+            "событи",
+            "реагир"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Координаты",
+          "keywords": [
+            "координ",
+            "абсолютн",
+            "относитель"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Постройки",
+          "keywords": [
+            "фигур",
+            "постройк",
+            "строит",
+            "клонирован",
+            "радиус"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Переменные",
+          "keywords": [
+            "переменн",
+            "счетчик",
+            "таймер"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Условия",
+          "keywords": [
+            "услов",
+            "если",
+            "ветвлен",
+            "логическ"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Функции",
+          "keywords": [
+            "функц",
+            "параметр"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Массивы",
+          "keywords": [
+            "массив",
+            "словар"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Проект",
+          "keywords": [
+            "проект",
+            "мини игр",
+            "миниигр",
+            "квест"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.PREZENT"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Игры",
+          "keywords": [
+            "лабиринт",
+            "игр",
+            "противник"
+          ],
+          "K": [],
+          "S": [
+            "S.MC.MAKECODE"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "ROBLOX913": {
+      "course_name": "Создание игр в Roblox Studio 9-13",
+      "default": {
+        "K": [
+          "K.ROBLOX.INTERFACE"
+        ],
+        "S": [
+          "S.ROBLOX.MEHANIKI"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство",
+          "keywords": [
+            "знакомств",
+            "интерфейс",
+            "первая игр",
+            "вводн"
+          ],
+          "K": [
+            "K.ROBLOX.INTERFACE"
+          ],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Объекты",
+          "keywords": [
+            "объект",
+            "свойств",
+            "параметр",
+            "настройк"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Освещение",
+          "keywords": [
+            "свет",
+            "освещ",
+            "эффект"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Моделирование",
+          "keywords": [
+            "моделир",
+            "тверд",
+            "union",
+            "negate",
+            "separate"
+          ],
+          "K": [
+            "K.ROBLOX.3D"
+          ],
+          "S": [
+            "S.ROBLOX.3D"
+          ],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Текстуры",
+          "keywords": [
+            "декал",
+            "текстур",
+            "визуальн"
+          ],
+          "K": [],
+          "S": [
+            "S.ROBLOX.3D"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Плагины",
+          "keywords": [
+            "плагин",
+            "toolbox",
+            "brushtool",
+            "tools"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Ландшафт",
+          "keywords": [
+            "ландшафт",
+            "terrain"
+          ],
+          "K": [
+            "K.ROBLOX.3D"
+          ],
+          "S": [
+            "S.ROBLOX.3D"
+          ],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Lua",
+          "keywords": [
+            "скрипт",
+            "lua",
+            "код",
+            "программирован"
+          ],
+          "K": [
+            "K.ROBLOX.LUA"
+          ],
+          "S": [
+            "S.ROBLOX.LUA"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Циклы и условия",
+          "keywords": [
+            "цикл",
+            "for",
+            "while",
+            "услов",
+            "if",
+            "else"
+          ],
+          "K": [
+            "K.ROBLOX.LUA"
+          ],
+          "S": [
+            "S.ROBLOX.LUA"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Функции",
+          "keywords": [
+            "функц",
+            "событи"
+          ],
+          "K": [
+            "K.ROBLOX.LUA"
+          ],
+          "S": [
+            "S.ROBLOX.LUA"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "UI",
+          "keywords": [
+            "ui",
+            "screengui",
+            "surface",
+            "gui",
+            "меню",
+            "интерфейс игры"
+          ],
+          "K": [],
+          "S": [],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Анимация",
+          "keywords": [
+            "анимац",
+            "кадр",
+            "fk",
+            "ik",
+            "риг"
+          ],
+          "K": [
+            "K.ROBLOX.ANIM"
+          ],
+          "S": [
+            "S.ROBLOX.ANIM"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "NPC",
+          "keywords": [
+            "npc",
+            "персонаж",
+            "неигров"
+          ],
+          "K": [
+            "K.ROBLOX.3D"
+          ],
+          "S": [
+            "S.ROBLOX.3D"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Команда",
+          "keywords": [
+            "групп",
+            "команд",
+            "совмест",
+            "распределен рол"
+          ],
+          "K": [],
+          "S": [],
+          "C": [
+            "C.KOMANDA"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Проект",
+          "keywords": [
+            "проект"
+          ],
+          "K": [
+            "K.ROBLOX.3D"
+          ],
+          "S": [
+            "S.ROBLOX.3D"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Публикация",
+          "keywords": [
+            "публик",
+            "релиз"
+          ],
+          "K": [],
+          "S": [
+            "S.ROBLOX.PUBLIK"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        }
+      ]
+    },
+    "TINKER911": {
+      "course_name": "Tinkercad 9-11",
+      "default": {
+        "K": [
+          "K.TINKER.INTERFACE"
+        ],
+        "S": [
+          "S.TINKER.MODEL_PRIM"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.PROSTR_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Введение",
+          "keywords": [
+            "интерфейс",
+            "знакомств",
+            "основ 3",
+            "вводн"
+          ],
+          "K": [
+            "K.TINKER.INTERFACE"
+          ],
+          "S": [
+            "S.TINKER.MODEL_PRIM"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Примитивы",
+          "keywords": [
+            "примитив",
+            "сфер",
+            "параллелепипед",
+            "пирамид",
+            "цилиндр",
+            "тор",
+            "конус",
+            "многоугольник",
+            "труб",
+            "звезд",
+            "параболоид"
+          ],
+          "K": [
+            "K.TINKER.PRIMITIVY"
+          ],
+          "S": [
+            "S.TINKER.MODEL_PRIM"
+          ],
+          "C": [],
+          "M": [
+            "M.VIZUAL"
+          ]
+        },
+        {
+          "name": "Отверстия",
+          "keywords": [
+            "отверст"
+          ],
+          "K": [
+            "K.TINKER.OTVERSTIYA"
+          ],
+          "S": [
+            "S.TINKER.OTVERST"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Группировка",
+          "keywords": [
+            "групп",
+            "копирован",
+            "многоцветн"
+          ],
+          "K": [
+            "K.TINKER.OPERACII"
+          ],
+          "S": [
+            "S.TINKER.GRUPP"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Скетчинг",
+          "keywords": [
+            "скетч",
+            "scribble",
+            "вращен",
+            "выдавлив",
+            "эскиз"
+          ],
+          "K": [
+            "K.TINKER.SKETCH"
+          ],
+          "S": [
+            "S.TINKER.SKETCH"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.VIZUAL"
+          ]
+        },
+        {
+          "name": "Рабочая плоскость",
+          "keywords": [
+            "рабочая плоск",
+            "плоскост"
+          ],
+          "K": [
+            "K.TINKER.RAB_PLOSK"
+          ],
+          "S": [
+            "S.TINKER.RAB_PLOSK"
+          ],
+          "C": [],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Выровнять и Отразить",
+          "keywords": [
+            "выровн",
+            "отраз",
+            "выравн",
+            "зеркаль"
+          ],
+          "K": [
+            "K.TINKER.VYRAVN"
+          ],
+          "S": [
+            "S.TINKER.VYRAVN"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        }
+      ]
+    },
+    "DIGITART1113": {
+      "course_name": "Художник компьютерной графики 11-13",
+      "default": {
+        "K": [
+          "K.DIGIT1113.GRAFIKA"
+        ],
+        "S": [
+          "S.DIGIT1113.REDAKT"
+        ],
+        "C": [
+          "C.KREATIVNOST"
+        ],
+        "M": [
+          "M.VIZ_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Photoshop",
+          "keywords": [
+            "введен",
+            "photoshop",
+            "фотошоп",
+            "обзор"
+          ],
+          "K": [
+            "K.DIGIT1113.REDAKT"
+          ],
+          "S": [
+            "S.DIGIT1113.REDAKT"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Линия",
+          "keywords": [
+            "линейн",
+            "линия",
+            "рисунок"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.PLANSHET"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
+        },
+        {
+          "name": "Цвет",
+          "keywords": [
+            "цвет",
+            "колорист",
+            "теори цвет",
+            "rgb",
+            "cmyk"
+          ],
+          "K": [
+            "K.DIGIT1113.CVET"
+          ],
+          "S": [
+            "S.DIGIT1113.REDAKT"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
+        },
+        {
+          "name": "Иконки",
+          "keywords": [
+            "иконк",
+            "детализац иконк"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.ILL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Презентация",
+          "keywords": [
+            "презентов",
+            "реклам",
+            "маркетинг"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.ILL"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Персонажи",
+          "keywords": [
+            "маскот",
+            "персонаж",
+            "эмоци",
+            "мимик",
+            "характер",
+            "харизм"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.ILL"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Книжная иллюстрация",
+          "keywords": [
+            "книжн иллюстрац",
+            "книг",
+            "разворот"
+          ],
+          "K": [
+            "K.DIGIT1113.KOMPOZ"
+          ],
+          "S": [
+            "S.DIGIT1113.ILL"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Стикеры",
+          "keywords": [
+            "стикер",
+            "стикерпак"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.ILL"
+          ],
+          "C": [
+            "C.KREATIVNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Композиция и слои",
+          "keywords": [
+            "композиц",
+            "слои"
+          ],
+          "K": [
+            "K.DIGIT1113.KOMPOZ"
+          ],
+          "S": [
+            "S.DIGIT1113.REDAKT"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Авторское право",
+          "keywords": [
+            "авторск прав",
+            "защит проект"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.EXPORT"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Финал",
+          "keywords": [
+            "финализ",
+            "итогов",
+            "проект"
+          ],
+          "K": [
+            "K.DIGIT1113.KOMPOZ"
+          ],
+          "S": [
+            "S.DIGIT1113.EXPORT"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Мокапы",
+          "keywords": [
+            "мокап",
+            "mockup"
+          ],
+          "K": [],
+          "S": [
+            "S.DIGIT1113.EXPORT"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VIZ_MYSHL"
+          ]
+        }
+      ]
+    },
+    "BLENDER1113": {
+      "course_name": "Проектирование виртуальных сред (Blender + Unity) 11-13",
+      "default": {
+        "K": [
+          "K.BL.INTERFACE"
+        ],
+        "S": [
+          "S.BL.MODEL"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.PROSTR_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Интерфейс",
+          "keywords": [
+            "интерфейс",
+            "повторен",
+            "закреплен",
+            "подготов"
+          ],
+          "K": [
+            "K.BL.INTERFACE"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Моделирование",
+          "keywords": [
+            "полигональн",
+            "моделирован",
+            "модель"
+          ],
+          "K": [
+            "K.BL.POLI_MODEL"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "UV",
+          "keywords": [
+            "uv",
+            "развёртк",
+            "разверт"
+          ],
+          "K": [
+            "K.BL.UV"
+          ],
+          "S": [
+            "S.BL.UV"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PROSTR_MYSHL"
+          ]
+        },
+        {
+          "name": "Симуляции",
+          "keywords": [
+            "симуляц",
+            "физическ",
+            "воду",
+            "огонь",
+            "столкновен",
+            "ткан"
+          ],
+          "K": [
+            "K.BL.SCENE_RENDER"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Geometry Nodes",
+          "keywords": [
+            "geometry node",
+            "нод",
+            "параметрическ"
+          ],
+          "K": [
+            "K.BL.POLI_MODEL"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Текстурирование",
+          "keywords": [
+            "текстур",
+            "материал",
+            "шейдер",
+            "displace",
+            "bump"
+          ],
+          "K": [
+            "K.BL.SCENE_RENDER"
+          ],
+          "S": [
+            "S.BL.MAT_UNITY"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VIZUAL"
+          ]
+        },
+        {
+          "name": "Сцена и рендер",
+          "keywords": [
+            "сцен",
+            "рендер",
+            "локац"
+          ],
+          "K": [
+            "K.BL.SCENE_RENDER"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PIPELINE"
+          ]
+        },
+        {
+          "name": "Анимация",
+          "keywords": [
+            "ригг",
+            "анимац",
+            "таймлайн",
+            "кадр"
+          ],
+          "K": [
+            "K.BL.RIG"
+          ],
+          "S": [
+            "S.BL.RIG"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.VIZUAL"
+          ]
+        },
+        {
+          "name": "Unity",
+          "keywords": [
+            "unity",
+            "импорт",
+            "асет",
+            "export",
+            "экспорт"
+          ],
+          "K": [
+            "K.BL.EXPORT_UNITY"
+          ],
+          "S": [
+            "S.BL.UNITY"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.PIPELINE"
+          ]
+        },
+        {
+          "name": "Финал",
+          "keywords": [
+            "финальн",
+            "итогов",
+            "годов проект"
+          ],
+          "K": [
+            "K.BL.SCENE_RENDER"
+          ],
+          "S": [
+            "S.BL.MODEL"
+          ],
+          "C": [
+            "C.UPORSTVO"
+          ],
+          "M": [
+            "M.PIPELINE"
+          ]
+        },
+        {
+          "name": "Skript Unity",
+          "keywords": [
+            "скрипт",
+            "тригер",
+            "триггер",
+            "audiosource",
+            "cinemachine",
+            "first person"
+          ],
+          "K": [
+            "K.BL.EXPORT_UNITY"
+          ],
+          "S": [
+            "S.BL.UNITY"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        }
+      ]
+    },
+    "NATSHKOLA910": {
+      "course_name": "Натуральная школа (Мир научных открытий) 9-10",
+      "default": {
+        "K": [
+          "K.NS.NAUCH_KARTINA"
+        ],
+        "S": [
+          "S.NS.EKSPERIM"
+        ],
+        "C": [
+          "C.LYUBOZNATELNOST"
+        ],
+        "M": [
+          "M.POZNAV_INTERES"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Биология",
+          "keywords": [
+            "биологи",
+            "клетк",
+            "растен",
+            "животн",
+            "микроорган",
+            "позвоночн"
+          ],
+          "K": [
+            "K.NS.BIOLOGIYA"
+          ],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Химия",
+          "keywords": [
+            "хими",
+            "вещество",
+            "химичес",
+            "кислот",
+            "щелоч",
+            "металл",
+            "индикатор",
+            "раствор",
+            "кристалл"
+          ],
+          "K": [
+            "K.NS.HIMIYA"
+          ],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Физика",
+          "keywords": [
+            "физик",
+            "сила",
+            "энерги",
+            "плотност",
+            "давлен",
+            "свет",
+            "звук",
+            "электр",
+            "магнит",
+            "оптик"
+          ],
+          "K": [
+            "K.NS.FIZIKA"
+          ],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Анатомия",
+          "keywords": [
+            "строени тела",
+            "скелет",
+            "мышц",
+            "слух",
+            "зрени",
+            "органы чувств",
+            "здоров"
+          ],
+          "K": [
+            "K.NS.BIOLOGIYA"
+          ],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Эксперименты",
+          "keywords": [
+            "эксперимент",
+            "опыт",
+            "микроскоп",
+            "прибор",
+            "оборудован",
+            "демонстрац"
+          ],
+          "K": [],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Природа",
+          "keywords": [
+            "природ",
+            "круговорот",
+            "погод",
+            "сезон"
+          ],
+          "K": [],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Квест",
+          "keywords": [
+            "квест",
+            "обобщен",
+            "итогов",
+            "детектив"
+          ],
+          "K": [],
+          "S": [
+            "S.NS.EKSPERIM"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": []
+        }
+      ]
+    },
+    "ELECTRONIKA1012": {
+      "course_name": "Электроника",
+      "default": {
+        "K": [
+          "K.DET.SBORKA"
+        ],
+        "S": [
+          "S.DET.CHTENIE_SHEM"
+        ],
+        "C": [
+          "C.AKKURATNOST"
+        ],
+        "M": [
+          "M.LOGICHESK_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Знакомство",
+          "keywords": [
+            "знакомств",
+            "первые шаги",
+            "компонент"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Резисторы",
+          "keywords": [
+            "резистор",
+            "сопротивлен",
+            "ток",
+            "мультиметр",
+            "переменн резистор"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.INSTR"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Полупроводники",
+          "keywords": [
+            "полупровод",
+            "диод",
+            "транзистор"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Конденсатор",
+          "keywords": [
+            "конденсатор",
+            "заряд"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Логические схемы",
+          "keywords": [
+            "логическ элемент",
+            "интегральн схем",
+            "микросхем"
+          ],
+          "K": [
+            "K.DET.SHEMY"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Звук",
+          "keywords": [
+            "звук",
+            "зуммер",
+            "динамик",
+            "усилитель",
+            "пьезо"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Радио",
+          "keywords": [
+            "радио",
+            "fm",
+            "радиоволн"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Arduino",
+          "keywords": [
+            "микроконтрол",
+            "arduino",
+            "программирован"
+          ],
+          "K": [
+            "K.DET.MK"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Датчики",
+          "keywords": [
+            "датчик",
+            "фоторезистор",
+            "температур",
+            "влажност"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.INSTR"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Кнопка",
+          "keywords": [
+            "кнопк",
+            "цифров вход"
+          ],
+          "K": [
+            "K.DET.MK"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "ШИМ",
+          "keywords": [
+            "аналог",
+            "шим",
+            "pwm",
+            "потенциометр"
+          ],
+          "K": [
+            "K.DET.MK"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Двигатели",
+          "keywords": [
+            "серводвигат",
+            "двигатель",
+            "мотор"
+          ],
+          "K": [
+            "K.DET.MK"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Творческий",
+          "keywords": [
+            "творческ проект",
+            "собери своё",
+            "устройств"
+          ],
+          "K": [
+            "K.DET.SBORKA"
+          ],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Пайка",
+          "keywords": [
+            "пайка",
+            "паяль",
+            "припой"
+          ],
+          "K": [
+            "K.DET.PAYKA"
+          ],
+          "S": [
+            "S.DET.PAYKA"
+          ],
+          "C": [
+            "C.AKKURATNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Презентация",
+          "keywords": [
+            "презент",
+            "демонстр",
+            "защит"
+          ],
+          "K": [
+            "K.DET.SBORKA"
+          ],
+          "S": [
+            "S.DET.PREZENT"
+          ],
+          "C": [],
+          "M": [
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Светодиоды",
+          "keywords": [
+            "светов",
+            "светодиод",
+            "led"
+          ],
+          "K": [],
+          "S": [
+            "S.DET.SBORKA"
+          ],
+          "C": [],
+          "M": [
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Поиск ошибок",
+          "keywords": [
+            "поиск ошиб",
+            "диагност"
+          ],
+          "K": [
+            "K.DET.SBORKA"
+          ],
+          "S": [
+            "S.DET.INSTR"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "PYTHON1315": {
+      "course_name": "Python 2.0: Инженерия web-приложений 13-15",
+      "default": {
+        "K": [
+          "K.PY1315.OOP"
+        ],
+        "S": [
+          "S.PY1315.WEB"
+        ],
+        "C": [
+          "C.OTVETSTVENNOST"
+        ],
+        "M": [
+          "M.ALGORITM_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "Основы",
+          "keywords": [
+            "вводн",
+            "повторен",
+            "основ",
+            "закреплен"
+          ],
+          "K": [
+            "K.PY1315.OOP"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "SQL",
+          "keywords": [
+            "база данных",
+            "sql",
+            "запрос",
+            "sqlite",
+            "mysql"
+          ],
+          "K": [
+            "K.PY1315.DB"
+          ],
+          "S": [
+            "S.PY1315.DB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "JOIN",
+          "keywords": [
+            "join",
+            "связ",
+            "один ко мног",
+            "мног к одн"
+          ],
+          "K": [
+            "K.PY1315.DB"
+          ],
+          "S": [
+            "S.PY1315.DB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "ООП",
+          "keywords": [
+            "ооп",
+            "наследован",
+            "инкапсуляц",
+            "полиморфизм",
+            "абстракц",
+            "класс"
+          ],
+          "K": [
+            "K.PY1315.OOP"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": [
+            "M.DEKOMPOZICIYA"
+          ]
+        },
+        {
+          "name": "Архитектура",
+          "keywords": [
+            "clean code",
+            "архитектур",
+            "многослой",
+            "рефактор"
+          ],
+          "K": [
+            "K.PY1315.OOP"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": [
+            "M.DEKOMPOZICIYA"
+          ]
+        },
+        {
+          "name": "HTML/CSS",
+          "keywords": [
+            "html",
+            "css",
+            "версстк",
+            "тег",
+            "селектор"
+          ],
+          "K": [
+            "K.PY1315.HTTP_REST"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "JavaScript",
+          "keywords": [
+            "javascript",
+            "java script",
+            "js",
+            "dom",
+            "браузер"
+          ],
+          "K": [
+            "K.PY1315.HTTP_REST"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "REST API",
+          "keywords": [
+            "api",
+            "fast api",
+            "rest",
+            "post",
+            "get"
+          ],
+          "K": [
+            "K.PY1315.HTTP_REST"
+          ],
+          "S": [
+            "S.PY1315.API"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Flask",
+          "keywords": [
+            "flask",
+            "django",
+            "jinja",
+            "шаблон"
+          ],
+          "K": [
+            "K.PY1315.FLASK_DJANGO"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Деплой",
+          "keywords": [
+            "деплой",
+            "продакш",
+            "сервер"
+          ],
+          "K": [
+            "K.PY1315.DEPLOY"
+          ],
+          "S": [
+            "S.PY1315.DEPLOY"
+          ],
+          "C": [
+            "C.OTVETSTVENNOST"
+          ],
+          "M": []
+        },
+        {
+          "name": "Проект",
+          "keywords": [
+            "проект",
+            "приложени",
+            "консольн",
+            "библиотек"
+          ],
+          "K": [
+            "K.PY1315.OOP"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Олимпиада",
+          "keywords": [
+            "олимпиад",
+            "контрол"
+          ],
+          "K": [
+            "K.PY1315.OOP"
+          ],
+          "S": [
+            "S.PY1315.WEB"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    },
+    "UNITYCSH1315": {
+      "course_name": "Системная разработка игр C# + Unity 13-15",
+      "default": {
+        "K": [
+          "K.UNITYCSH.CSHARP"
+        ],
+        "S": [
+          "S.UNITYCSH.LOGIC"
+        ],
+        "C": [
+          "C.UPORSTVO"
+        ],
+        "M": [
+          "M.ARH_MYSHL"
+        ]
+      },
+      "rules": [
+        {
+          "name": "C#",
+          "keywords": [
+            "c#",
+            "c sharp",
+            "переменн",
+            "тип данн",
+            "инкримент"
+          ],
+          "K": [
+            "K.UNITYCSH.CSHARP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Условия",
+          "keywords": [
+            "услов",
+            "логическ оператор"
+          ],
+          "K": [
+            "K.UNITYCSH.CSHARP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Циклы",
+          "keywords": [
+            "цикл",
+            "for",
+            "while",
+            "автоматизац"
+          ],
+          "K": [
+            "K.UNITYCSH.CSHARP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Массивы",
+          "keywords": [
+            "массив",
+            "коллекц"
+          ],
+          "K": [
+            "K.UNITYCSH.CSHARP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": [
+            "M.DEKOMPOZICIYA"
+          ]
+        },
+        {
+          "name": "Объекты",
+          "keywords": [
+            "объект в сцен",
+            "transform",
+            "трансформ"
+          ],
+          "K": [
+            "K.UNITYCSH.OOP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Управление",
+          "keywords": [
+            "ввод",
+            "клавиатур",
+            "input"
+          ],
+          "K": [
+            "K.UNITYCSH.PATTERNS"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Физика",
+          "keywords": [
+            "rigidbody",
+            "addforce",
+            "velocity",
+            "physics",
+            "физик"
+          ],
+          "K": [
+            "K.UNITYCSH.FIZIKA"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Игровые системы",
+          "keywords": [
+            "прогресси",
+            "опыт",
+            "уровень игрок",
+            "здоровье",
+            "монет",
+            "хп"
+          ],
+          "K": [
+            "K.UNITYCSH.ARH"
+          ],
+          "S": [
+            "S.UNITYCSH.PATTERNS"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "UI",
+          "keywords": [
+            "ui",
+            "hud",
+            "интерфейс"
+          ],
+          "K": [
+            "K.UNITYCSH.ARH"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Звук",
+          "keywords": [
+            "звук",
+            "audiosource",
+            "audioclip",
+            "ontriggerenter"
+          ],
+          "K": [
+            "K.UNITYCSH.PATTERNS"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Объекты",
+          "keywords": [
+            "создан и уничтожен",
+            "instantiate",
+            "destroy"
+          ],
+          "K": [
+            "K.UNITYCSH.OOP"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Враги",
+          "keywords": [
+            "юнит",
+            "враг",
+            "противник",
+            "патрулир",
+            "движение врагов",
+            "босс"
+          ],
+          "K": [
+            "K.UNITYCSH.PATTERNS"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Эффекты",
+          "keywords": [
+            "частиц",
+            "particle",
+            "огонь",
+            "дым",
+            "эффект"
+          ],
+          "K": [
+            "K.UNITYCSH.PATTERNS"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        },
+        {
+          "name": "Рефакторинг",
+          "keywords": [
+            "рефактор",
+            "улучшен",
+            "оптимизац"
+          ],
+          "K": [
+            "K.UNITYCSH.OPT"
+          ],
+          "S": [
+            "S.UNITYCSH.OPT"
+          ],
+          "C": [],
+          "M": [
+            "M.KRITICH_MYSHL"
+          ]
+        },
+        {
+          "name": "Механики",
+          "keywords": [
+            "дверь-ключ",
+            "механик",
+            "мин кат сцен"
+          ],
+          "K": [
+            "K.UNITYCSH.ARH"
+          ],
+          "S": [
+            "S.UNITYCSH.PATTERNS"
+          ],
+          "C": [
+            "C.UPORSTVO"
+          ],
+          "M": []
+        },
+        {
+          "name": "3D",
+          "keywords": [
+            "3d",
+            "асет",
+            "импорт модел",
+            "ретопологи"
+          ],
+          "K": [
+            "K.UNITYCSH.ARH"
+          ],
+          "S": [
+            "S.UNITYCSH.LOGIC"
+          ],
+          "C": [],
+          "M": []
+        }
+      ]
+    }
+  }
+}
