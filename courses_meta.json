@@ -1,0 +1,210 @@
+{
+  "_comment": "Конфиг курсов для рекомендательной системы.",
+  "_version": "2.1",
+  "_updated": "2026-05-10",
+
+  "courses": {
+    "Говорилка": {
+      "platform": "proznanie",
+      "min_age": 2, "max_age": 3,
+      "category": "preschool"
+    },
+    "Почемучка": {
+      "platform": "proznanie",
+      "min_age": 3, "max_age": 4,
+      "category": "preschool"
+    },
+    "Нейрогимнастика": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 6,
+      "category": "preschool",
+      "multilevel": true
+    },
+    "Живая азбука": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 6,
+      "category": "preschool"
+    },
+    "Хочу всё знать": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 6,
+      "category": "preschool",
+      "multilevel": true,
+      "_note": "Обязательно после Нейрогимнастики, до школы"
+    },
+    "Маленькие академики": {
+      "platform": "proznanie",
+      "min_age": 5, "max_age": 6,
+      "category": "preschool"
+    },
+    "Пескография": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 6,
+      "category": "preschool",
+      "multilevel": true
+    },
+    "Лепка из глины": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 14,
+      "category": "art",
+      "multilevel": true
+    },
+    "Арт-студия": {
+      "platform": "proznanie",
+      "min_age": 4, "max_age": 8,
+      "category": "art",
+      "multilevel": true
+    },
+
+    "Финансовая грамотность": {
+      "platform": "proznanie",
+      "min_age": 6, "max_age": 14,
+      "category": "general",
+      "multilevel": true
+    },
+    "Познавательный английский": {
+      "platform": "proznanie",
+      "min_age": 6, "max_age": 16,
+      "category": "language",
+      "multilevel": true
+    },
+    "7 навыков уверенных детей": {
+      "platform": "proznanie",
+      "min_age": 6, "max_age": 16,
+      "category": "soft_skills",
+      "multilevel": true
+    },
+    "Каллиграфия": {
+      "platform": "proznanie",
+      "min_age": 6, "max_age": 10,
+      "category": "general",
+      "multilevel": true
+    },
+    "Рисование": {
+      "platform": "proznanie",
+      "min_age": 9, "max_age": 16,
+      "category": "art",
+      "multilevel": true
+    },
+    "Лепка из полимерной глины": {
+      "platform": "proznanie",
+      "min_age": 6, "max_age": 11,
+      "category": "art",
+      "multilevel": true
+    },
+    "Мир научных открытий": {
+      "platform": "proznanie",
+      "min_age": 9, "max_age": 10,
+      "category": "general",
+      "multilevel": true
+    },
+    "Клуб математической стратегии": {
+      "platform": "proznanie",
+      "min_age": 8, "max_age": 14,
+      "category": "general",
+      "multilevel": true
+    },
+    "Взросление. Девочки": {
+      "platform": "proznanie",
+      "min_age": 10, "max_age": 14,
+      "category": "soft_skills",
+      "gender": "F",
+      "multilevel": true,
+      "_note": "10-12 первая программа, 13-14 вторая"
+    },
+
+    "Робототехника": {
+      "platform": "coddy",
+      "min_age": 6, "max_age": 7,
+      "category": "tech",
+      "track_position": 1
+    },
+    "Создание игр в Scratch": {
+      "platform": "coddy",
+      "min_age": 7, "max_age": 8,
+      "category": "tech",
+      "track_position": 2
+    },
+    "Minecraft: введение в ИИ": {
+      "platform": "coddy",
+      "min_age": 8, "max_age": 9,
+      "category": "tech",
+      "track_position": 3
+    },
+    "Создание игр в Roblox Studio": {
+      "platform": "coddy",
+      "min_age": 9, "max_age": 10,
+      "category": "tech",
+      "track_position": 4
+    },
+    "Tinkercad": {
+      "platform": "coddy",
+      "min_age": 9, "max_age": 11,
+      "category": "tech",
+      "track_position": 4,
+      "_note": "Боковая ветка, рекомендуется параллельно Roblox"
+    },
+    "Python": {
+      "platform": "coddy",
+      "min_age": 11, "max_age": 15,
+      "category": "tech",
+      "track_position": 5,
+      "multilevel": true
+    },
+    "Проектирование виртуальных сред Blender 3D": {
+      "platform": "coddy",
+      "min_age": 11, "max_age": 14,
+      "category": "tech",
+      "track_position": 5
+    },
+    "Unity 3D - разработка игр": {
+      "platform": "coddy",
+      "min_age": 12, "max_age": 15,
+      "category": "tech",
+      "track_position": 6,
+      "multilevel": true
+    },
+    "Художник компьютерной графики": {
+      "platform": "coddy",
+      "min_age": 10, "max_age": 16,
+      "category": "tech_art",
+      "multilevel": true,
+      "_note": "Без линейки — рекомендуется всем подходящим по возрасту"
+    }
+  },
+
+  "coddy_track_rules": {
+    "1": ["Создание игр в Scratch"],
+    "2": ["Minecraft: введение в ИИ"],
+    "3": ["Создание игр в Roblox Studio", "Tinkercad"],
+    "4": ["Python", "Проектирование виртуальных сред Blender 3D"],
+    "5": ["Unity 3D - разработка игр"],
+    "6": []
+  },
+
+  "preschool_chain": {
+    "Говорилка": "Почемучка",
+    "Почемучка": "Нейрогимнастика",
+    "Нейрогимнастика": "Хочу всё знать"
+  },
+
+  "after_course_priority": {
+    "_comment": "Если ребёнок прошёл указанный курс — гарантированно добавляем целевой курс в блок discover (даже если он не попадал бы по другим критериям).",
+    "Робототехника": ["Познавательный английский"],
+    "Хочу всё знать": ["Познавательный английский"]
+  },
+
+  "labels": {
+    "reinforce_title": "🌱 Чтобы укрепить навыки этого года",
+    "reinforce_subtitle": "Курсы, где ребёнок продолжит развивать то, что уже умеет",
+    "discover_title": "✨ Чтобы попробовать что-то новое",
+    "discover_subtitle": "Совсем другие направления — для расширения кругозора",
+    "reason_next_step": "Следующая ступень в CODDY",
+    "reason_skill_overlap": "Развивает похожие навыки",
+    "reason_continue_multilevel": "Продолжайте — в следующем году новая программа",
+    "reason_age_fit": "Подходит по возрасту",
+    "reason_new_direction": "Новое направление для ребёнка",
+    "reason_preschool_next": "Следующая ступень дошкольной программы",
+    "reason_logical_next": "Логичное продолжение"
+  }
+}
