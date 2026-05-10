@@ -1,7 +1,7 @@
 {
-  "version": "2.0",
-  "generated_at": "2026-05-09 (rules v2 with name-resolution)",
-  "description": "Правила автоматической разметки тем по 4К через ключевые слова",
+  "version": "2.1",
+  "generated_at": "2026-05-10 (rules v3 — diversified skill_id from spravochnik)",
+  "description": "Правила автоматической разметки тем по 4К через ключевые слова. v3: расширены skill_id для 8 курсов (Говорилка, Почемучка, ХВЗ, Пескография, Мир логики, КМС, Каллиграфия, Английский) — для разнообразия паспортов разных детей.",
   "rules_engine": {
     "match_logic": "Тема нормализуется (lowercase). Каждое правило с найденным keyword добавляет skill_id.",
     "max_per_category": 2,
@@ -36,12 +36,14 @@
             "K.GOV23.OKR_MIR"
           ],
           "S": [
-            "S.GOV23.MOTORIKA"
+            "S.GOV23.MOTORIKA",
+            "S.GOV23.SENSOR"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.GOV23.TAKTILNYY_GNOZIS",
             "M.VNIMANIE"
           ]
         },
@@ -60,7 +62,7 @@
             "лес"
           ],
           "K": [
-            "K.GOV23.OKR_MIR"
+            "K.GOV23.ZHIVOTN"
           ],
           "S": [
             "S.GOV23.SENSOR",
@@ -70,6 +72,7 @@
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.GOV23.SRAVNENIE",
             "M.VNIMANIE"
           ]
         },
@@ -87,17 +90,19 @@
             "поросен"
           ],
           "K": [
-            "K.GOV23.OKR_MIR"
+            "K.GOV23.ZHIVOTN"
           ],
           "S": [
-            "S.GOV23.SENSOR",
-            "S.GOV23.DIDAKT_IGR"
+            "S.GOV23.ZVUKOPODR",
+            "S.GOV23.SENSOR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.SOPEREZHIVANIE"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.PAMIAT",
+            "M.GOV23.SLUKHOVOE_VOSPRIYATIE"
           ]
         },
         {
@@ -112,7 +117,7 @@
             "ледян"
           ],
           "K": [
-            "K.GOV23.OKR_MIR"
+            "K.GOV23.SEZON"
           ],
           "S": [
             "S.GOV23.SENSOR",
@@ -122,7 +127,8 @@
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.VOOBRAZHENIE",
+            "M.GOV23.SRAVNENIE"
           ]
         },
         {
@@ -134,16 +140,17 @@
             "снеги"
           ],
           "K": [
-            "K.GOV23.OKR_MIR"
+            "K.GOV23.ZHIVOTN"
           ],
           "S": [
-            "S.GOV23.SENSOR",
-            "S.GOV23.DIDAKT_IGR"
+            "S.GOV23.ZVUKOPODR",
+            "S.GOV23.IMITAC"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.GOV23.SLUKHOVOE_VOSPRIYATIE",
             "M.VNIMANIE"
           ]
         },
@@ -161,13 +168,14 @@
             "K.GOV23.OKR_MIR"
           ],
           "S": [
-            "S.GOV23.SENSOR",
+            "S.GOV23.PLASTILIN",
             "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.GOV23.SRAVNENIE",
             "M.VNIMANIE"
           ]
         },
@@ -181,17 +189,19 @@
             "хоровод"
           ],
           "K": [
-            "K.GOV23.OKR_MIR"
+            "K.GOV23.SKAZKI"
           ],
           "S": [
-            "S.GOV23.DIDAKT_IGR"
+            "S.GOV23.IMITAC",
+            "S.GOV23.MOTORIKA"
           ],
           "C": [
             "C.LYUBOZNATELNOST",
             "C.DRUZHELYUBIE"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.VOOBRAZHENIE"
           ]
         },
         {
@@ -210,13 +220,66 @@
             "K.GOV23.OKR_MIR"
           ],
           "S": [
-            "S.GOV23.SENSOR"
+            "S.GOV23.SENSOR",
+            "S.GOV23.DIDAKT_IGR"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.GOV23.SRAVNENIE",
             "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Транспорт",
+          "keywords": [
+            "машин",
+            "автобус",
+            "поезд",
+            "самолет",
+            "транспорт",
+            "корабл"
+          ],
+          "K": [
+            "K.GOV23.TRANSPORT"
+          ],
+          "S": [
+            "S.GOV23.ZVUKOPODR",
+            "S.GOV23.IMITAC"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Семья",
+          "keywords": [
+            "мам",
+            "пап",
+            "семь",
+            "бабушк",
+            "дедушк",
+            "брат",
+            "сестр"
+          ],
+          "K": [
+            "K.GOV23.SEMYA"
+          ],
+          "S": [
+            "S.GOV23.IMITAC",
+            "S.GOV23.DIDAKT_IGR"
+          ],
+          "C": [
+            "C.SOPEREZHIVANIE",
+            "C.DRUZHELYUBIE"
+          ],
+          "M": [
+            "M.PAMIAT"
           ]
         },
         {
@@ -231,13 +294,16 @@
             "K.GOV23.OKR_MIR"
           ],
           "S": [
-            "S.GOV23.DIDAKT_IGR"
+            "S.GOV23.PLASTILIN",
+            "S.GOV23.IMITAC"
           ],
           "C": [
-            "C.DRUZHELYUBIE"
+            "C.DRUZHELYUBIE",
+            "C.KOMANDA"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.VOOBRAZHENIE"
           ]
         }
       ]
@@ -273,13 +339,15 @@
             "сов"
           ],
           "K": [
-            "K.POCH34.PRIRODA"
+            "K.POCH34.ZHIVOTN"
           ],
           "S": [
-            "S.POCH34.NABLYUDENIE"
+            "S.POCH34.NABLYUDENIE",
+            "S.POCH34.PODELKI"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.BEREZHN_PRIRODA"
           ],
           "M": [
             "M.VNIMANIE"
@@ -299,17 +367,18 @@
             "поросен"
           ],
           "K": [
-            "K.POCH34.PRIRODA"
+            "K.POCH34.ZHIVOTN"
           ],
           "S": [
-            "S.POCH34.NABLYUDENIE"
+            "S.POCH34.NABLYUDENIE",
+            "S.POCH34.ROLEV_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST",
-            "C.BEREZHN_PRIRODA"
+            "C.BEREZHN_PRIRODA",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.PAMIAT"
           ]
         },
         {
@@ -327,9 +396,11 @@
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.INICIATIVNOST"
           ],
           "M": [
+            "M.OBOBSHCH_KLASSIF",
             "M.VNIMANIE"
           ]
         },
@@ -352,13 +423,15 @@
             "K.POCH34.PRIRODA"
           ],
           "S": [
-            "S.POCH34.NABLYUDENIE"
+            "S.POCH34.NABLYUDENIE",
+            "S.POCH34.RIS"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.OBOBSHCH_KLASSIF",
+            "M.PAMIAT"
           ]
         },
         {
@@ -375,12 +448,14 @@
             "K.POCH34.PRIRODA"
           ],
           "S": [
+            "S.POCH34.APPLIKACIYA",
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.OBOBSHCH_KLASSIF",
             "M.VNIMANIE"
           ]
         },
@@ -397,13 +472,15 @@
             "K.POCH34.PRIRODA"
           ],
           "S": [
-            "S.POCH34.NABLYUDENIE"
+            "S.POCH34.RIS",
+            "S.POCH34.APPLIKACIYA"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.VNIMANIE",
+            "M.OBOBSHCH_KLASSIF"
           ]
         },
         {
@@ -417,13 +494,15 @@
             "K.POCH34.PRIRODA"
           ],
           "S": [
-            "S.POCH34.NABLYUDENIE"
+            "S.POCH34.NABLYUDENIE",
+            "S.POCH34.ROLEV_IGR"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.PAMIAT"
           ]
         },
         {
@@ -434,17 +513,112 @@
             "цветок"
           ],
           "K": [
-            "K.POCH34.PRIRODA"
+            "K.POCH34.NASEK_RAST"
           ],
           "S": [
+            "S.POCH34.UHOD_RAST",
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
-            "C.LYUBOZNATELNOST",
-            "C.BEREZHN_PRIRODA"
+            "C.BEREZHN_PRIRODA",
+            "C.OTVETSTVENNOST"
           ],
           "M": [
             "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Птицы",
+          "keywords": [
+            "птиц",
+            "пингвин",
+            "воробей",
+            "снеги",
+            "сороц"
+          ],
+          "K": [
+            "K.POCH34.PTICY"
+          ],
+          "S": [
+            "S.POCH34.NABLYUDENIE",
+            "S.POCH34.PODELKI"
+          ],
+          "C": [
+            "C.BEREZHN_PRIRODA",
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Семья и праздники",
+          "keywords": [
+            "семья",
+            "праздн",
+            "мам",
+            "пап",
+            "новогодн",
+            "8 март"
+          ],
+          "K": [
+            "K.POCH34.SEMYA"
+          ],
+          "S": [
+            "S.POCH34.PODELKI",
+            "S.POCH34.APPLIKACIYA"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST",
+            "C.INICIATIVNOST"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.VOOBRAZHENIE"
+          ]
+        },
+        {
+          "name": "Транспорт и игрушки",
+          "keywords": [
+            "игрушк",
+            "транспорт",
+            "машин"
+          ],
+          "K": [
+            "K.POCH34.IGR_TRANSP"
+          ],
+          "S": [
+            "S.POCH34.ROLEV_IGR",
+            "S.POCH34.PODELKI"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VOOBRAZHENIE",
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Сказки",
+          "keywords": [
+            "сказк",
+            "инсцен",
+            "герой"
+          ],
+          "K": [
+            "K.POCH34.SEMYA"
+          ],
+          "S": [
+            "S.POCH34.INSCENIROVKA",
+            "S.POCH34.ROLEV_IGR"
+          ],
+          "C": [
+            "C.LYUBOZNATELNOST"
+          ],
+          "M": [
+            "M.VOOBRAZHENIE",
+            "M.PAMIAT"
           ]
         },
         {
@@ -459,6 +633,7 @@
             "K.POCH34.PRIRODA"
           ],
           "S": [
+            "S.POCH34.ROLEV_IGR",
             "S.POCH34.NABLYUDENIE"
           ],
           "C": [
@@ -466,7 +641,8 @@
             "C.INICIATIVNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.VOOBRAZHENIE",
+            "M.OBOBSHCH_KLASSIF"
           ]
         }
       ]
@@ -960,15 +1136,17 @@
             "снегопад"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.PRIRODA"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ",
+            "S.HVZ.PREDLOZH"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.ANALIZ",
             "M.VNIMANIE"
           ]
         },
@@ -986,13 +1164,15 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PREDLOZH",
+            "S.HVZ.ARTIKULYACIYA"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.PAMIAT",
+            "M.ANALIZ"
           ]
         },
         {
@@ -1012,17 +1192,19 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ",
+            "S.HVZ.PREDLOZH"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.PAMIAT",
+            "M.ANALIZ"
           ]
         },
         {
-          "name": "Семья",
+          "name": "Семья и тело",
           "keywords": [
             "семь",
             "мам",
@@ -1035,13 +1217,14 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.VOOBRAZHENIE"
           ]
         },
         {
@@ -1052,21 +1235,47 @@
             "счет",
             "цифр",
             "число",
-            "соседи числ",
-            "предлог места"
+            "соседи числ"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.SCHET"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.SCHET_SRAVN",
+            "S.HVZ.TETRAD"
           ],
           "C": [
-            "C.LYUBOZNATELNOST",
             "C.USIDCHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
+          ]
+        },
+        {
+          "name": "Пространство",
+          "keywords": [
+            "предлог места",
+            "лево",
+            "право",
+            "выше",
+            "ниже",
+            "пространств"
+          ],
+          "K": [
+            "K.HVZ.PROSTR"
+          ],
+          "S": [
+            "S.HVZ.TETRAD",
+            "S.HVZ.GRAFIKA"
+          ],
+          "C": [
+            "C.USIDCHIVOST",
+            "C.DISCIPLINA"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL",
+            "M.VNIMANIE"
           ]
         },
         {
@@ -1079,16 +1288,18 @@
             "логическ задач"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.SCHET"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.SCHET_SRAVN"
           ],
           "C": [
-            "C.USIDCHIVOST"
+            "C.USIDCHIVOST",
+            "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
           ]
         },
         {
@@ -1101,16 +1312,40 @@
             "фонематич"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.ZVUKI_BUKVY"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.CHTENIE",
+            "S.HVZ.ARTIKULYACIYA"
           ],
           "C": [
             "C.INTERES_CHTENIE"
           ],
           "M": [
+            "M.AZB.FONEMATIC",
             "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Чтение",
+          "keywords": [
+            "чтен",
+            "читать",
+            "слог"
+          ],
+          "K": [
+            "K.HVZ.ZVUKI_BUKVY"
+          ],
+          "S": [
+            "S.HVZ.CHTENIE"
+          ],
+          "C": [
+            "C.INTERES_CHTENIE",
+            "C.USIDCHIVOST"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.AZB.FONEMATIC"
           ]
         },
         {
@@ -1124,34 +1359,41 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
           ],
           "M": [
+            "M.ANALIZ",
             "M.VNIMANIE"
           ]
         },
         {
-          "name": "Творчество",
+          "name": "Творчество и литература",
           "keywords": [
             "творч",
             "поделк",
             "рисов",
-            "аппликац"
+            "аппликац",
+            "стих",
+            "сказк",
+            "литератур"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.LIT"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ",
+            "S.HVZ.GRAFIKA"
           ],
           "C": [
-            "C.LYUBOZNATELNOST"
+            "C.LYUBOZNATELNOST",
+            "C.INTERES_CHTENIE"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.VOOBRAZHENIE",
+            "M.PAMIAT"
           ]
         },
         {
@@ -1164,7 +1406,7 @@
             "K.HVZ.OKR_MIR"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.PERESKAZ"
           ],
           "C": [
             "C.LYUBOZNATELNOST"
@@ -1183,12 +1425,13 @@
             "вечер"
           ],
           "K": [
-            "K.HVZ.OKR_MIR"
+            "K.HVZ.SCHET"
           ],
           "S": [
-            "S.HVZ.CHTENIE"
+            "S.HVZ.SCHET_SRAVN"
           ],
           "C": [
+            "C.USIDCHIVOST",
             "C.LYUBOZNATELNOST"
           ],
           "M": [
@@ -1225,13 +1468,14 @@
             "K.PESK.TEHN"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.PESOK",
+            "S.PESK.PLAVN"
           ],
           "C": [
             "C.AKKURATNOST"
           ],
           "M": [
-            "M.KREATIV_MYSHL"
+            "M.KONCENTRACIYA"
           ]
         },
         {
@@ -1247,16 +1491,18 @@
             "позитив"
           ],
           "K": [
-            "K.PESK.TEHN"
+            "K.PESK.TERAPIYA"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.IZOBR",
+            "S.PESK.PLAVN"
           ],
           "C": [
             "C.ESTET_VKUS"
           ],
           "M": [
-            "M.KREATIV_MYSHL"
+            "M.PESK.EMOC_VYRAZH",
+            "M.VOOBRAZHENIE"
           ]
         },
         {
@@ -1273,9 +1519,10 @@
             "павлин"
           ],
           "K": [
-            "K.PESK.TEHN"
+            "K.PESK.OBRAZY"
           ],
           "S": [
+            "S.PESK.IZOBR",
             "S.PESK.PESOK"
           ],
           "C": [
@@ -1283,6 +1530,7 @@
             "C.AKKURATNOST"
           ],
           "M": [
+            "M.VOOBRAZHENIE",
             "M.KREATIV_MYSHL"
           ]
         },
@@ -1298,15 +1546,18 @@
             "обезьянк"
           ],
           "K": [
-            "K.PESK.TEHN"
+            "K.PESK.OBRAZY"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.SUZHETY",
+            "S.PESK.IZOBR"
           ],
           "C": [
+            "C.KREATIVNOST",
             "C.ESTET_VKUS"
           ],
           "M": [
+            "M.VOOBRAZHENIE",
             "M.KREATIV_MYSHL"
           ]
         },
@@ -1323,13 +1574,36 @@
             "K.PESK.TEHN"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.SVET_STOL",
+            "S.PESK.PLAVN"
           ],
           "C": [
             "C.AKKURATNOST",
             "C.TERPENIE"
           ],
           "M": [
+            "M.KREATIV_MYSHL",
+            "M.KONCENTRACIYA"
+          ]
+        },
+        {
+          "name": "Композиция",
+          "keywords": [
+            "композиц",
+            "многофигурн"
+          ],
+          "K": [
+            "K.PESK.KOMPOZ"
+          ],
+          "S": [
+            "S.PESK.IZOBR",
+            "S.PESK.SUZHETY"
+          ],
+          "C": [
+            "C.ESTET_VKUS"
+          ],
+          "M": [
+            "M.VOOBRAZHENIE",
             "M.KREATIV_MYSHL"
           ]
         },
@@ -1344,16 +1618,19 @@
             "новогодн"
           ],
           "K": [
-            "K.PESK.TEHN"
+            "K.PESK.OBRAZY"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.IZOBR",
+            "S.PESK.PLAVN"
           ],
           "C": [
-            "C.ESTET_VKUS"
+            "C.ESTET_VKUS",
+            "C.KREATIVNOST"
           ],
           "M": [
-            "M.KREATIV_MYSHL"
+            "M.PESK.EMOC_VYRAZH",
+            "M.VOOBRAZHENIE"
           ]
         },
         {
@@ -1369,13 +1646,16 @@
             "K.PESK.TEHN"
           ],
           "S": [
-            "S.PESK.PESOK"
+            "S.PESK.SVET_STOL",
+            "S.PESK.IZOBR"
           ],
           "C": [
-            "C.AKKURATNOST"
+            "C.AKKURATNOST",
+            "C.TERPENIE"
           ],
           "M": [
-            "M.KREATIV_MYSHL"
+            "M.KONCENTRACIYA",
+            "M.PESK.EMOC_VYRAZH"
           ]
         }
       ]
@@ -1672,21 +1952,23 @@
           "keywords": [
             "знакомств с каллиграф",
             "упражн",
-            "кист",
             "укрепл",
             "фонетическ"
           ],
           "K": [
-            "K.KALIGR.INSTR"
+            "K.KALIGR.IST",
+            "K.KALIGR.OSANKA"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.PROPISN",
+            "S.KALIGR.RUCHKA"
           ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
           "M": [
+            "M.KALIGR.MOTORIKA",
             "M.VNIMANIE"
           ]
         },
@@ -1702,16 +1984,63 @@
             "выносн"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.STR_BUKV"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.PROPISN",
+            "S.KALIGR.SOED"
           ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
           "M": [
+            "M.KALIGR.MOTORIKA",
+            "M.PLANIROVANIE"
+          ]
+        },
+        {
+          "name": "Заглавные буквы",
+          "keywords": [
+            "заглавн",
+            "прописн заглав"
+          ],
+          "K": [
+            "K.KALIGR.STR_BUKV"
+          ],
+          "S": [
+            "S.KALIGR.ZAGLAVN",
+            "S.KALIGR.SOED"
+          ],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
+          "M": [
+            "M.PLANIROVANIE",
+            "M.KALIGR.KONTROL"
+          ]
+        },
+        {
+          "name": "Слова и соединения",
+          "keywords": [
+            "слов",
+            "соединен",
+            "связк"
+          ],
+          "K": [
+            "K.KALIGR.STR_BUKV"
+          ],
+          "S": [
+            "S.KALIGR.SLOVA",
+            "S.KALIGR.SOED"
+          ],
+          "C": [
+            "C.AKKURATNOST",
+            "C.USIDCHIVOST"
+          ],
+          "M": [
+            "M.KALIGR.KONTROL",
             "M.VNIMANIE"
           ]
         },
@@ -1726,17 +2055,19 @@
             "отражени по"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.STILI"
           ],
           "S": [
+            "S.KALIGR.DEKOR",
             "S.KALIGR.PROPISN"
           ],
           "C": [
             "C.AKKURATNOST",
-            "C.USIDCHIVOST"
+            "C.ESTET_VKUS"
           ],
           "M": [
-            "M.PROSTR_MYSHL"
+            "M.PROSTR_MYSHL",
+            "M.PLANIROVANIE"
           ]
         },
         {
@@ -1747,18 +2078,21 @@
             "тушь",
             "инструм",
             "острое перо",
-            "металлическ перо"
+            "металлическ перо",
+            "кист"
           ],
           "K": [
             "K.KALIGR.INSTR"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.PERO",
+            "S.KALIGR.RUCHKA"
           ],
           "C": [
             "C.AKKURATNOST"
           ],
           "M": [
+            "M.KALIGR.KONTROL",
             "M.VNIMANIE"
           ]
         },
@@ -1772,17 +2106,19 @@
             "кросс модальн"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.OSANKA"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.PROPISN",
+            "S.KALIGR.RUCHKA"
           ],
           "C": [
             "C.AKKURATNOST",
             "C.USIDCHIVOST"
           ],
           "M": [
-            "M.VNIMANIE"
+            "M.VNIMANIE",
+            "M.KALIGR.KONTROL"
           ]
         },
         {
@@ -1798,7 +2134,7 @@
             "согласован работ"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.OSANKA"
           ],
           "S": [
             "S.KALIGR.PROPISN"
@@ -1808,7 +2144,8 @@
             "C.USIDCHIVOST"
           ],
           "M": [
-            "M.PROSTR_MYSHL"
+            "M.PROSTR_MYSHL",
+            "M.KALIGR.MOTORIKA"
           ]
         },
         {
@@ -1823,9 +2160,10 @@
             "звер"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.STILI"
           ],
           "S": [
+            "S.KALIGR.DEKOR",
             "S.KALIGR.PROPISN"
           ],
           "C": [
@@ -1833,31 +2171,35 @@
             "C.USIDCHIVOST"
           ],
           "M": [
+            "M.PLANIROVANIE",
             "M.VNIMANIE"
           ]
         },
         {
-          "name": "Праздники",
+          "name": "Открытки и праздники",
           "keywords": [
             "день матери",
             "новогодн",
             "пасх",
             "8 март",
             "рождеств",
-            "мам"
+            "мам",
+            "открытк"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.STILI"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.OTKRYTKI",
+            "S.KALIGR.DEKOR"
           ],
           "C": [
             "C.ESTET_VKUS",
-            "C.USIDCHIVOST"
+            "C.KALIGR910.VZAIMOPOMOSCH"
           ],
           "M": [
-            "M.PLANIROVANIE"
+            "M.PLANIROVANIE",
+            "M.KALIGR.KONTROL"
           ]
         },
         {
@@ -1865,21 +2207,22 @@
           "keywords": [
             "финальн",
             "итогов",
-            "открытк",
             "шаблон"
           ],
           "K": [
-            "K.KALIGR.IST"
+            "K.KALIGR.STILI"
           ],
           "S": [
-            "S.KALIGR.PROPISN"
+            "S.KALIGR.OTKRYTKI",
+            "S.KALIGR.DEKOR"
           ],
           "C": [
             "C.KALIGR910.VZAIMOPOMOSCH",
             "C.USIDCHIVOST"
           ],
           "M": [
-            "M.PLANIROVANIE"
+            "M.PLANIROVANIE",
+            "M.KALIGR.KONTROL"
           ]
         }
       ]
@@ -1911,16 +2254,20 @@
             "римск"
           ],
           "K": [
-            "K.LOGIKA.ZAKON"
+            "K.LOGIKA.RYADY",
+            "K.LOGIKA.MNOZH"
           ],
           "S": [
-            "S.LOGIKA.RESH_LOGIC"
+            "S.LOGIKA.POSLED",
+            "S.LOGIKA.ARGUM"
           ],
           "C": [
-            "C.NASTOICHIVOST"
+            "C.NASTOICHIVOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
           ]
         },
         {
@@ -1935,12 +2282,15 @@
             "K.LOGIKA.ZAKON"
           ],
           "S": [
-            "S.LOGIKA.RESH_LOGIC"
+            "S.LOGIKA.RESH_LOGIC",
+            "S.LOGIKA.ARGUM"
           ],
           "C": [
-            "C.NASTOICHIVOST"
+            "C.NASTOICHIVOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
+            "M.ANALIZ",
             "M.LOGICHESK_MYSHL"
           ]
         },
@@ -1957,10 +2307,12 @@
             "S.LOGIKA.RESH_LOGIC"
           ],
           "C": [
-            "C.NASTOICHIVOST"
+            "C.NASTOICHIVOST",
+            "C.USIDCHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.SISTEM_MYSHL"
           ]
         },
         {
@@ -1975,13 +2327,15 @@
             "K.LOGIKA.ZAKON"
           ],
           "S": [
-            "S.LOGIKA.RESH_LOGIC"
+            "S.LOGIKA.RESH_LOGIC",
+            "S.LOGIKA.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
           ]
         },
         {
@@ -1995,13 +2349,15 @@
             "K.LOGIKA.ZAKON"
           ],
           "S": [
+            "S.LOGIKA.ARGUM",
             "S.LOGIKA.RESH_LOGIC"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.KRITICH_MYSHL"
           ]
         },
         {
@@ -2021,7 +2377,8 @@
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
           ]
         },
         {
@@ -2033,17 +2390,20 @@
             "головолом"
           ],
           "K": [
-            "K.LOGIKA.ZAKON"
+            "K.LOGIKA.GOLOVOL",
+            "K.LOGIKA.KLASSIF"
           ],
           "S": [
-            "S.LOGIKA.RESH_LOGIC"
+            "S.LOGIKA.ZAGADKI",
+            "S.LOGIKA.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST",
-            "C.USIDCHIVOST"
+            "C.LYUBOZNATELNOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.KRITICH_MYSHL",
+            "M.SISTEM_MYSHL"
           ]
         },
         {
@@ -2059,13 +2419,15 @@
             "K.LOGIKA.ZAKON"
           ],
           "S": [
+            "S.LOGIKA.POSLED",
             "S.LOGIKA.RESH_LOGIC"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.OBOBSHCH_KLASSIF"
           ]
         },
         {
@@ -2079,16 +2441,19 @@
             "степень числ"
           ],
           "K": [
-            "K.LOGIKA.ZAKON"
+            "K.LOGIKA.ZAKON",
+            "K.LOGIKA.RYADY"
           ],
           "S": [
-            "S.LOGIKA.RESH_LOGIC"
+            "S.LOGIKA.RESH_LOGIC",
+            "S.LOGIKA.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALIZ"
           ]
         }
       ]
@@ -2390,13 +2755,15 @@
             "K.ENG68.ALFAVIT"
           ],
           "S": [
+            "S.ENG68.PROIZN",
             "S.ENG68.CHTENIE"
           ],
           "C": [
             "C.OTKRYTOST"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.AZB.FONEMATIC"
           ]
         },
         {
@@ -2411,13 +2778,15 @@
             "K.ENG68.ALFAVIT"
           ],
           "S": [
-            "S.ENG68.CHTENIE"
+            "S.ENG68.CHTENIE",
+            "S.ENG68.PROIZN"
           ],
           "C": [
             "C.OTKRYTOST"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.AZB.FONEMATIC",
+            "M.YAZ_DOGADKA"
           ]
         },
         {
@@ -2440,7 +2809,8 @@
             "C.INTERES_KULTURY"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.YAZ_DOGADKA"
           ]
         },
         {
@@ -2456,13 +2826,38 @@
             "настоящ"
           ],
           "K": [
-            "K.ENG68.SLOVAR"
+            "K.ENG68.FRAZY"
           ],
           "S": [
-            "S.ENG68.CHTENIE"
+            "S.ENG68.CHTENIE",
+            "S.ENG68.DIALOG"
           ],
           "C": [
             "C.OTKRYTOST"
+          ],
+          "M": [
+            "M.YAZ_DOGADKA",
+            "M.PAMIAT"
+          ]
+        },
+        {
+          "name": "Фразы",
+          "keywords": [
+            "фраз",
+            "речев шаблон",
+            "оборот",
+            "конструкц"
+          ],
+          "K": [
+            "K.ENG68.FRAZY"
+          ],
+          "S": [
+            "S.ENG68.DIALOG",
+            "S.ENG68.PROIZN"
+          ],
+          "C": [
+            "C.OTKRYTOST",
+            "C.ENG68.SMELOST_V_OBSCHENII"
           ],
           "M": [
             "M.PAMIAT"
@@ -2476,15 +2871,17 @@
             "диалогич"
           ],
           "K": [
-            "K.ENG68.SLOVAR"
+            "K.ENG68.FRAZY"
           ],
           "S": [
             "S.ENG68.DIALOG"
           ],
           "C": [
-            "C.OTKRYTOST"
+            "C.OTKRYTOST",
+            "C.ENG68.SMELOST_V_OBSCHENII"
           ],
           "M": [
+            "M.YAZ_DOGADKA",
             "M.PAMIAT"
           ]
         },
@@ -2499,12 +2896,13 @@
             "K.ENG68.SLOVAR"
           ],
           "S": [
-            "S.ENG68.CHTENIE"
+            "S.ENG68.AUDIROVANIE"
           ],
           "C": [
             "C.OTKRYTOST"
           ],
           "M": [
+            "M.AZB.FONEMATIC",
             "M.VNIMANIE"
           ]
         },
@@ -2518,38 +2916,57 @@
             "K.ENG68.ALFAVIT"
           ],
           "S": [
-            "S.ENG68.DIALOG"
+            "S.ENG68.PROIZN"
           ],
           "C": [
-            "C.OTKRYTOST"
+            "C.OTKRYTOST",
+            "C.ENG68.SMELOST_V_OBSCHENII"
           ],
           "M": [
+            "M.AZB.FONEMATIC",
             "M.VNIMANIE"
           ]
         },
         {
-          "name": "Темы лексические",
+          "name": "Песни",
           "keywords": [
-            "семья",
-            "друг",
-            "школьн",
-            "еда",
-            "дом",
-            "мебель",
-            "одежд",
-            "спорт",
-            "животн",
-            "игрушк",
-            "цифр",
-            "цвет",
-            "школьные принадлежн",
-            "факт обо"
+            "песн",
+            "пет",
+            "ритм",
+            "song"
           ],
           "K": [
-            "K.ENG68.SLOVAR"
+            "K.ENG68.PRAZDN"
           ],
           "S": [
-            "S.ENG68.DIALOG"
+            "S.ENG68.PESNI",
+            "S.ENG68.PROIZN"
+          ],
+          "C": [
+            "C.OTKRYTOST",
+            "C.INTERES_KULTURY"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.AZB.FONEMATIC"
+          ]
+        },
+        {
+          "name": "Темы — семья и животные",
+          "keywords": [
+            "семья",
+            "семь",
+            "друг",
+            "школьн",
+            "животн",
+            "питомц"
+          ],
+          "K": [
+            "K.ENG68.ZHIV_SEMYA"
+          ],
+          "S": [
+            "S.ENG68.DIALOG",
+            "S.ENG68.AUDIROVANIE"
           ],
           "C": [
             "C.INTERES_KULTURY",
@@ -2560,22 +2977,80 @@
           ]
         },
         {
-          "name": "Числа",
+          "name": "Темы — быт и интересы",
           "keywords": [
-            "числительн",
-            "счёт",
-            "счет",
-            "1-10",
-            "1-100"
+            "еда",
+            "дом",
+            "мебель",
+            "одежд",
+            "спорт",
+            "игрушк",
+            "школьные принадлежн",
+            "хобб"
           ],
           "K": [
             "K.ENG68.SLOVAR"
           ],
           "S": [
+            "S.ENG68.DIALOG",
             "S.ENG68.CHTENIE"
           ],
           "C": [
+            "C.INTERES_KULTURY",
             "C.OTKRYTOST"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.YAZ_DOGADKA"
+          ]
+        },
+        {
+          "name": "Числа и цвета",
+          "keywords": [
+            "числительн",
+            "счёт",
+            "счет",
+            "1-10",
+            "1-100",
+            "цвет",
+            "цифр"
+          ],
+          "K": [
+            "K.ENG68.CHISLA_CVETA"
+          ],
+          "S": [
+            "S.ENG68.CHTENIE",
+            "S.ENG68.AUDIROVANIE"
+          ],
+          "C": [
+            "C.OTKRYTOST"
+          ],
+          "M": [
+            "M.PAMIAT",
+            "M.VNIMANIE"
+          ]
+        },
+        {
+          "name": "Праздники и культура",
+          "keywords": [
+            "хеллоуин",
+            "halloween",
+            "christmas",
+            "thanksgiving",
+            "праздн",
+            "факт обо",
+            "стран"
+          ],
+          "K": [
+            "K.ENG68.PRAZDN"
+          ],
+          "S": [
+            "S.ENG68.AUDIROVANIE",
+            "S.ENG68.DIALOG"
+          ],
+          "C": [
+            "C.INTERES_KULTURY",
+            "C.UVAZHENIE"
           ],
           "M": [
             "M.PAMIAT"
@@ -2594,30 +3069,36 @@
             "K.ENG68.SLOVAR"
           ],
           "S": [
-            "S.ENG68.CHTENIE"
+            "S.ENG68.CHTENIE",
+            "S.ENG68.AUDIROVANIE"
           ],
           "C": [
             "C.OTKRYTOST"
           ],
           "M": [
-            "M.PAMIAT"
+            "M.PAMIAT",
+            "M.VNIMANIE"
           ]
         },
         {
           "name": "Проект",
           "keywords": [
-            "проект"
+            "проект",
+            "презентац"
           ],
           "K": [
-            "K.ENG68.SLOVAR"
+            "K.ENG68.PRAZDN"
           ],
           "S": [
-            "S.ENG68.DIALOG"
+            "S.ENG68.DIALOG",
+            "S.ENG68.PESNI"
           ],
           "C": [
+            "C.ENG68.SMELOST_V_OBSCHENII",
             "C.OTKRYTOST"
           ],
           "M": [
+            "M.YAZ_DOGADKA",
             "M.PAMIAT"
           ]
         }
@@ -3533,18 +4014,20 @@
             "K.KMS.SISTEMY"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.NESTAND",
+            "S.KMS.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST",
             "C.CELEUSTREMLENNOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.ANALITICH_MYSHL"
           ]
         },
         {
-          "name": "Геометрия",
+          "name": "Геометрия — фигуры",
           "keywords": [
             "прямая",
             "луч",
@@ -3556,7 +4039,27 @@
             "треуг",
             "квадрат",
             "параллел",
-            "геометр",
+            "геометр"
+          ],
+          "K": [
+            "K.KMS.FIGURY"
+          ],
+          "S": [
+            "S.KMS.POSTROENIE",
+            "S.KMS.ARGUM"
+          ],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.SAMOSTOJATELNOST"
+          ],
+          "M": [
+            "M.PROSTR_VOOBR",
+            "M.LOGICHESK_MYSHL"
+          ]
+        },
+        {
+          "name": "Геометрия — треугольники",
+          "keywords": [
             "медиан",
             "биссектр",
             "высот",
@@ -3566,17 +4069,42 @@
             "тангенс"
           ],
           "K": [
-            "K.KMS.FIGURY"
+            "K.KMS.TREUGOL"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.POSTROENIE",
+            "S.KMS.ARGUM"
+          ],
+          "C": [
+            "C.NASTOICHIVOST"
+          ],
+          "M": [
+            "M.PROSTR_VOOBR",
+            "M.GIPOTEZY"
+          ]
+        },
+        {
+          "name": "Площади и объёмы",
+          "keywords": [
+            "площад",
+            "объём",
+            "объем",
+            "вычислен"
+          ],
+          "K": [
+            "K.KMS.PLOSHCH_OBEM"
+          ],
+          "S": [
+            "S.KMS.NESTAND",
+            "S.KMS.TABLICY"
           ],
           "C": [
             "C.NASTOICHIVOST",
-            "C.CELEUSTREMLENNOST"
+            "C.KMS1112.TRUDOLYUBIE"
           ],
           "M": [
-            "M.PROSTR_VOOBR"
+            "M.PROSTR_VOOBR",
+            "M.ANALITICH_MYSHL"
           ]
         },
         {
@@ -3598,6 +4126,7 @@
             "C.NASTOICHIVOST"
           ],
           "M": [
+            "M.ANALITICH_MYSHL",
             "M.LOGICHESK_MYSHL"
           ]
         },
@@ -3611,13 +4140,15 @@
             "K.KMS.SISTEMY"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.NESTAND",
+            "S.KMS.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.GIPOTEZY"
           ]
         },
         {
@@ -3631,13 +4162,14 @@
             "K.KMS.SISTEMY"
           ],
           "S": [
+            "S.KMS.TABLICY",
             "S.KMS.NESTAND"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.ANALITICH_MYSHL"
           ]
         },
         {
@@ -3650,7 +4182,34 @@
             "K.KMS.SISTEMY"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.TABLICY",
+            "S.KMS.POSTROENIE"
+          ],
+          "C": [
+            "C.NASTOICHIVOST"
+          ],
+          "M": [
+            "M.ANALITICH_MYSHL",
+            "M.OBOBSHCH_KLASSIF"
+          ]
+        },
+        {
+          "name": "Делимость и НОД-НОК",
+          "keywords": [
+            "делимост",
+            "делитель",
+            "кратн",
+            "нод",
+            "нок",
+            "признак делимости"
+          ],
+          "K": [
+            "K.KMS.DELIMOST",
+            "K.KMS.NOD_NOK"
+          ],
+          "S": [
+            "S.KMS.NESTAND",
+            "S.KMS.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST"
@@ -3667,17 +4226,41 @@
             "стратеги"
           ],
           "K": [
-            "K.KMS.SISTEMY"
+            "K.KMS.LOGIC_ZAD"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.NESTAND",
+            "S.KMS.SPICHKI"
           ],
           "C": [
             "C.NASTOICHIVOST",
             "C.CELEUSTREMLENNOST"
           ],
           "M": [
-            "M.KRITICH_MYSHL"
+            "M.KRITICH_MYSHL",
+            "M.GIPOTEZY"
+          ]
+        },
+        {
+          "name": "Числовые ребусы",
+          "keywords": [
+            "ребус",
+            "криптарифм"
+          ],
+          "K": [
+            "K.KMS.REBUSY"
+          ],
+          "S": [
+            "S.KMS.REBUSY",
+            "S.KMS.ARGUM"
+          ],
+          "C": [
+            "C.NASTOICHIVOST",
+            "C.SAMOSTOJATELNOST"
+          ],
+          "M": [
+            "M.LOGICHESK_MYSHL",
+            "M.GIPOTEZY"
           ]
         },
         {
@@ -3688,16 +4271,18 @@
             "подоб"
           ],
           "K": [
-            "K.KMS.FIGURY"
+            "K.KMS.TREUGOL"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.POSTROENIE",
+            "S.KMS.ARGUM"
           ],
           "C": [
             "C.NASTOICHIVOST"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.LOGICHESK_MYSHL",
+            "M.OBOBSHCH_KLASSIF"
           ]
         },
         {
@@ -3710,13 +4295,16 @@
             "K.KMS.SISTEMY"
           ],
           "S": [
-            "S.KMS.NESTAND"
+            "S.KMS.TABLICY",
+            "S.KMS.ARGUM"
           ],
           "C": [
-            "C.NASTOICHIVOST"
+            "C.NASTOICHIVOST",
+            "C.UVAZHENIE"
           ],
           "M": [
-            "M.LOGICHESK_MYSHL"
+            "M.OBOBSHCH_KLASSIF",
+            "M.ANALITICH_MYSHL"
           ]
         }
       ]
