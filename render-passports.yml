@@ -1,0 +1,78 @@
+name: Render passports to PDF
+
+on:
+  workflow_dispatch:
+    inputs:
+      web_app_url:
+        description: 'Web App URL (полный, до /exec). Без параметров.'
+        required: true
+      from_id:
+        description: 'Стартовый ID (включительно)'
+        required: true
+        default: '1'
+      to_id:
+        description: 'Конечный ID (включительно)'
+        required: true
+        default: '881'
+      concurrency:
+        description: 'Сколько паспортов рендерить параллельно'
+        required: true
+        default: '4'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360  # до 6 часов — на всякий случай
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install dependencies
+        working-directory: scripts
+        run: |
+          npm ci || npm install
+
+      - name: Install Chromium for Puppeteer
+        working-directory: scripts
+        run: npx puppeteer browsers install chrome
+
+      - name: Render passports
+        working-directory: scripts
+        env:
+          WEB_APP_URL: ${{ github.event.inputs.web_app_url }}
+          FROM_ID: ${{ github.event.inputs.from_id }}
+          TO_ID: ${{ github.event.inputs.to_id }}
+          CONCURRENCY: ${{ github.event.inputs.concurrency }}
+        run: node render.js
+
+      - name: Upload PNG (zip)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: passports-png
+          path: scripts/out/png
+          retention-days: 14
+
+      - name: Upload PDF
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: passports-pdf
+          path: scripts/out/passports.pdf
+          retention-days: 30
+
+      - name: Upload errors log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: errors-log
+          path: scripts/out/errors.json
+          retention-days: 14
