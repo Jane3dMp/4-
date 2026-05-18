@@ -64,7 +64,7 @@
     },
     "Познавательный английский": {
       "platform": "proznanie",
-      "min_age": 6, "max_age": 16,
+      "min_age": 6, "max_age": 8,
       "category": "language",
       "multilevel": true
     },
